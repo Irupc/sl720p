@@ -1,4 +1,3 @@
-lastRes = "720p"; lastSize = "300MB"; lastRip = "WebRip"; lastMsg1 = "x264 Codec File"; lastMsg2 = "---";
 s01Res = "720p"; s01Size = "~350MB"; s01Rip = "BluRay"; s01Msg1 = "x264 Codec File"; s01Msg2 = "---";
 s02Res = "720p"; s02Size = "~350MB"; s02Rip = "BluRay"; s02Msg1 = "x264 Codec File"; s02Msg2 = "---";
 s03Res = "720p"; s03Size = "~225MB"; s03Rip = "HDTV"; s03Msg1 = "Warning! This is x265 (HEVC) Codec"; s03Msg2 = "Some <b>Televisions</b> may not be able to play this video";
