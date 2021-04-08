@@ -1,0 +1,7 @@
+lastRes = "720p"; lastSize = "372MB"; lastRip = "WebRip"; lastMsg1 = "x264 Codec Files"; lastMsg2 = "---";
+s01Res = "720p"; s01Size = "~400MB"; s01Rip = "WebRip"; s01Msg1 = "x264 Codec Files"; s01Msg2 = "---";
+
+//Season 1 URL
+s01e01x = "https://cloud.irupc.xyz/0:/TV.Shows/Trackers/S01/iruPC.net_Trackers.S01E01.720p.AMZN.WEBRip.x264-i.mkv"; s01e02x = "https://cloud.irupc.xyz/0:/TV.Shows/Trackers/S01/iruPC.net_Trackers.S01E02.720p.AMZN.WEBRip.x264-p.mkv"; s01e03x = "https://cloud.irupc.xyz/0:/TV.Shows/Trackers/S01/iruPC.net_Trackers.S01E03.720p.AMZN.WEBRip.x264-a.mkv"; s01e04x = "https://cloud.irupc.xyz/0:/TV.Shows/Trackers/S01/iruPC.net_Trackers.S01E04.720p.AMZN.WEBRip.x264-v.mkv"; s01e05x = "https://cloud.irupc.xyz/0:/TV.Shows/Trackers/S01/iruPC.net_Trackers.S01E05.720p.AMZN.WEBRip.x264-y.mkv"; s01e06x = "https://cloud.irupc.xyz/0:/TV.Shows/Trackers/S01/iruPC.net_Trackers.S01E06.720p.AMZN.WEBRip.x264-e.mkv";
+//  
+s01e01y = "https://dl.irupc.xyz/510624780819548/iruPC.net_Trackers.S01E01.720p.AMZN.WEBRip.x264-i.mkv"; s01e02y = "https://dl.irupc.xyz/510641960688732/iruPC.net_Trackers.S01E02.720p.AMZN.WEBRip.x264-p.mkv"; s01e03y = "https://dl.irupc.xyz/510659140557916/iruPC.net_Trackers.S01E03.720p.AMZN.WEBRip.x264-a.mkv"; s01e04y = "https://dl.irupc.xyz/510676320427100/iruPC.net_Trackers.S01E04.720p.AMZN.WEBRip.x264-v.mkv"; s01e05y = "https://dl.irupc.xyz/510693500296284/iruPC.net_Trackers.S01E05.720p.AMZN.WEBRip.x264-y.mkv"; s01e06y = "https://dl.irupc.xyz/510710680165468/iruPC.net_Trackers.S01E06.720p.AMZN.WEBRip.x264-e.mkv";
