@@ -1,0 +1,29 @@
+lastRes = "---"; lastSize = "470MB"; lastRip = "HDTV"; lastMsg1 = "x264 Codec Files"; lastMsg2 = "---";
+s01Res = "---"; s01Size = "~28MB"; s01Rip = "HDTV"; s01Msg1 = "x264 Codec Files"; s01Msg2 = "---";
+s02Res = "---"; s02Size = "~250MB"; s02Rip = "HDTV"; s02Msg1 = "x264 Codec Files"; s02Msg2 = "---";
+s03Res = "---"; s03Size = "~230MB"; s03Rip = "HDTV"; s03Msg1 = "x264 Codec Files"; s03Msg2 = "---";
+s04Res = "---"; s04Size = "~470MB"; s04Rip = "HDTV"; s04Msg1 = "x264 Codec Files"; s04Msg2 = "---";
+
+//Season 1 URL
+s01e01x = "https://dl.irupc.xyz/520743723768924/The.Expanse.S01E01.HDTV.x264-BATV%5Bettv%5D.mp4"; s01e02x = "https://dl.irupc.xyz/520760903638108/The.Expanse.S01E02.HDTV.x264-KILLERS%5Bettv%5D.mp4"; s01e03x = "https://dl.irupc.xyz/520778083507292/The.Expanse.S01E03.INTERNAL.HDTV.x264-KILLERS%5Bettv%5D.mp4"; s01e04x = "https://dl.irupc.xyz/520795263376476/The.Expanse.S01E04.INTERNAL.HDTV.x264-KILLERS%5Bettv%5D.mp4"; s01e05x = "https://dl.irupc.xyz/520812443245660/The.Expanse.S01E05.HDTV.x264-KILLERS%5Bettv%5D.mp4"; s01e06x = "https://dl.irupc.xyz/520829623114844/The.Expanse.S01E06.INTERNAL.HDTV.x264-FUM%5Bettv%5D.mp4"; s01e07x = "https://dl.irupc.xyz/520846802984028/The.Expanse.S01E07.HDTV.x264-KILLERS%5Bettv%5D.mp4"; s01e08x = "https://dl.irupc.xyz/520863982853212/The.Expanse.S01E08.HDTV.x264-FUM%5Bettv%5D.mp4"; s01e09x = "https://dl.irupc.xyz/520881162722396/The.Expanse.S01E09.HDTV.x264-KILLERS%5Bettv%5D.mp4"; s01e10x = "https://dl.irupc.xyz/520898342591580/The.Expanse.S01E10.HDTV.x264-KILLERS%5Bettv%5D.mp4";
+//@@01z@@  
+s01e01y = "@@01y@@"; s01e02y = "@@01y@@"; s01e03y = "@@01y@@"; s01e04y = "@@01y@@"; s01e05y = "@@01y@@"; s01e06y = "@@01y@@"; s01e07y = "@@01y@@"; s01e08y = "@@01y@@"; s01e09y = "@@01y@@"; s01e10y = "@@01y@@";
+
+//Season 2 URL
+s02e01x = "https://dl.irupc.xyz/521087321152604/The.Expanse.S02E01-E02.%5BIntermedia%E2%84%A2%5D.HDTV.FLEET.mkv"; s02e03x = "https://dl.irupc.xyz/521104501021788/The.Expanse.S02E03.Proper.%5BIntermedia%E2%84%A2%5D.HDTV.KILLERS.Mkv"; s02e04x = "https://dl.irupc.xyz/521121680890972/The.Expanse.S02E04.%5BIntermedia%E2%84%A2%5D.HDTV.SVA.mkv"; s02e05x = "https://dl.irupc.xyz/521138860760156/The.Expanse.S02E05.%5BIntermedia%E2%84%A2%5D.HDTV.SVA.mkv"; s02e06x = "https://dl.irupc.xyz/521156040629340/The.Expanse.S02E06.%5BIntermedia%E2%84%A2%5D.HDTV.SVA.mkv"; s02e07x = "https://dl.irupc.xyz/521173220498524/The.Expanse.S02E07.%5BIntermedia%E2%84%A2%5D.HDTV.SVA.mkv"; s02e08x = "https://dl.irupc.xyz/521190400367708/The.Expanse.S02E08.%5BIntermedia%E2%84%A2%5D.HDTV.FLEET.mkv"; s02e09x = "https://dl.irupc.xyz/521207580236892/The.Expanse.S02E09.%5BIntermedia%E2%84%A2%5D.HDTV.SVA.mkv"; s02e10x = "https://dl.irupc.xyz/521224760106076/The.Expanse.S02E10.%5BIntermedia%E2%84%A2%5D.HDTV.SVA.mkv";
+s02e11x = "https://dl.irupc.xyz/521241939975260/The.Expanse.S02E11.%5BIntermedia%E2%84%A2%5D.HDTV.KILLERS.mkv"; s02e12x = "https://dl.irupc.xyz/521259119844444/The.Expanse.S02E12.%5BIntermedia%E2%84%A2%5D.HDTV.SVA.mkv"; s02e13x = "https://dl.irupc.xyz/521276299713628/The.Expanse.S02E13.%5BIntermedia%E2%84%A2%5D.HDTV.SVA.mkv";
+//@@02z@@  
+s02e01y = "@@02y@@"; s02e03y = "@@02y@@"; s02e04y = "@@02y@@"; s02e05y = "@@02y@@"; s02e06y = "@@02y@@"; s02e07y = "@@02y@@"; s02e08y = "@@02y@@"; s02e09y = "@@02y@@"; s02e10y = "@@02y@@";
+s02e11y = "@@02y@@"; s02e12y = "@@02y@@"; s02e13y = "@@02y@@";
+
+//Season 3 URL
+s03e01x = "https://dl.irupc.xyz/521499638013020/The.Expanse.S03E01.HDTV.x264-@iMediaShare.mkv"; s03e02x = "https://dl.irupc.xyz/521516817882204/The.Expanse.S03E02.HDTV.x264-@iMediaShare.mkv"; s03e03x = "https://dl.irupc.xyz/521533997751388/The.Expanse.S03E03.HDTV.x264-@iMediaShare.mkv"; s03e04x = "https://dl.irupc.xyz/521551177620572/The.Expanse.S03E04.HDTV.x264-@iMediaShare.mkv"; s03e05x = "https://dl.irupc.xyz/521568357489756/The.Expanse.S03E05.HDTV.x264-@iMediaShare.mkv"; s03e06x = "https://dl.irupc.xyz/521585537358940/The.Expanse.S03E06.HDTV.x264-@iMediaShare.mkv"; s03e07x = "https://dl.irupc.xyz/521602717228124/The.Expanse.S03E07.PROPER.HDTV.x264-@iMediaShare.mkv"; s03e08x = "https://dl.irupc.xyz/521619897097308/The.Expanse.S03E08.720p.x265-@TvSeriesBay.mkv"; s03e09x = "https://dl.irupc.xyz/521637076966492/The.Expanse.S03E09.720p.x265-@TvSeriesBay.mkv"; s03e10x = "https://dl.irupc.xyz/521654256835676/The.Expanse.S03E10.720p.x265-@TvSeriesBay.mkv";
+s03e11x = "https://dl.irupc.xyz/521671436704860/The.Expanse.S03E11.720p.x265-@TvSeriesBay.mkv"; s03e12x = "https://dl.irupc.xyz/521688616574044/The.Expanse.S03E12-E13.720p.x265-@TvSeriesBay.mkv";
+//@@03z@@  
+s03e01y = "@@03y@@"; s03e02y = "@@03y@@"; s03e03y = "@@03y@@"; s03e04y = "@@03y@@"; s03e05y = "@@03y@@"; s03e06y = "@@03y@@"; s03e07y = "@@03y@@"; s03e08y = "@@03y@@"; s03e09y = "@@03y@@"; s03e10y = "@@03y@@";
+s03e11y = "@@03y@@"; s03e12y = "@@03y@@";
+
+//Season 4 URL
+s04e01x = "https://dl.irupc.xyz/521911954873436/The.Expanse.S04E01.Web.@intermedia.mp4"; s04e02x = "https://dl.irupc.xyz/521929134742620/The.Expanse.S04E02.Web.@intermedia.mp4"; s04e03x = "https://dl.irupc.xyz/521946314611804/The.Expanse.S04E03.Web.@intermedia.mp4"; s04e04x = "https://dl.irupc.xyz/521963494480988/The.Expanse.S04E04.Web.@intermedia.mp4"; s04e05x = "https://dl.irupc.xyz/521980674350172/The.Expanse.S04E05.Web.@intermedia.mp4"; s04e06x = "https://dl.irupc.xyz/521997854219356/The.Expanse.S04E06.Web.@intermedia.mp4"; s04e07x = "https://dl.irupc.xyz/522015034088540/The.Expanse.S04E07.Web.@intermedia.mp4"; s04e08x = "https://dl.irupc.xyz/522032213957724/The.Expanse.S04E08.Web.@intermedia.mp4"; s04e09x = "https://dl.irupc.xyz/522049393826908/The.Expanse.S04E09.Web.@intermedia.mp4"; s04e10x = "https://dl.irupc.xyz/522066573696092/The.Expanse.S04E10.Web.@intermedia.mp4";
+//@@04z@@  
+s04e01y = "@@04y@@"; s04e02y = "@@04y@@"; s04e03y = "@@04y@@"; s04e04y = "@@04y@@"; s04e05y = "@@04y@@"; s04e06y = "@@04y@@"; s04e07y = "@@04y@@"; s04e08y = "@@04y@@"; s04e09y = "@@04y@@"; s04e10y = "@@04y@@";
