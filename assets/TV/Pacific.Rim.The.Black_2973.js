@@ -1,13 +1,13 @@
-lastRes = "720p"; lastSize = "150MB"; lastRip = "WebRip"; lastMsg1 = "Warning! This is x265 (HEVC) Codec"; lastMsg2 = "Some <b>Televisions</b> may not be able to play this video";
-s01Res = "720p"; s01Size = "~120MB"; s01Rip = "WebRip"; s01Msg1 = "Warning! This is x265 (HEVC) Codec"; s01Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+lastRes = "720p"; lastSize = "150MB"; lastRip = "WebRip"; lastMsg1 = "Warning! This is x265 (10-bit) Codec"; lastMsg2 = "Some <b>Televisions</b> may not be able to play this video";
+s01Res = "720p"; s01Size = "~120MB"; s01Rip = "WebRip"; s01Msg1 = "Warning! This is x265 (10-bit) Codec"; s01Msg2 = "Some <b>Televisions</b> may not be able to play this video";
 
-s01e01x = "https://cloud.irupc.xyz/0:/TV.Shows/Pacific.Rim.The.Black/iruPC.net_Pacific.Rim.The.Black.S01E01.x265.Dual.Aud.%5BJpn+Eng%5D.720p.10bit.WEBRip.2CH.HEVC-s.mkv";
-s01e02x = "https://cloud.irupc.xyz/0:/TV.Shows/Pacific.Rim.The.Black/iruPC.net_Pacific.Rim.The.Black.S01E02.x265.Dual.Aud.%5BJpn+Eng%5D.720p.10bit.WEBRip.2CH.HEVC-f.mkv";
-s01e03x = "https://cloud.irupc.xyz/0:/TV.Shows/Pacific.Rim.The.Black/iruPC.net_Pacific.Rim.The.Black.S01E03.x265.Dual.Aud.%5BJpn+Eng%5D.720p.10bit.WEBRip.2CH.HEVC-g.mkv";
-s01e04x = "https://cloud.irupc.xyz/0:/TV.Shows/Pacific.Rim.The.Black/iruPC.net_Pacific.Rim.The.Black.S01E04.x265.Dual.Aud.%5BJpn+Eng%5D.720p.10bit.WEBRip.2CH.HEVC-d.mkv";
-s01e05x = "https://cloud.irupc.xyz/0:/TV.Shows/Pacific.Rim.The.Black/iruPC.net_Pacific.Rim.The.Black.S01E05.x265.Dual.Aud.%5BJpn+Eng%5D.720p.10bit.WEBRip.2CH.HEVC-l.mkv";
-s01e06x = "https://cloud.irupc.xyz/0:/TV.Shows/Pacific.Rim.The.Black/iruPC.net_Pacific.Rim.The.Black.S01E06.x265.Dual.Aud.%5BJpn+Eng%5D.720p.10bit.WEBRip.2CH.HEVC-k.mkv";
-s01e07x = "https://cloud.irupc.xyz/0:/TV.Shows/Pacific.Rim.The.Black/iruPC.net_Pacific.Rim.The.Black.S01E07.x265.Dual.Aud.%5BJpn+Eng%5D.720p.10bit.WEBRip.2CH.HEVC-o.mkv";
+s01e01x = "https://series.irupc.xyz/0:/TV.Series/Pacific.Rim.The.Black/S01/iruPC.net_Pacific.Rim.The.Black.S01E01.x265.Dual.Aud.%5BJpn+Eng%5D.720p.10bit.WEBRip.2CH.HEVC-o.mkv";
+s01e02x = "https://series.irupc.xyz/0:/TV.Series/Pacific.Rim.The.Black/S01/iruPC.net_Pacific.Rim.The.Black.S01E02.x265.Dual.Aud.%5BJpn+Eng%5D.720p.10bit.WEBRip.2CH.HEVC-.mkv";
+s01e03x = "https://series.irupc.xyz/0:/TV.Series/Pacific.Rim.The.Black/S01/iruPC.net_Pacific.Rim.The.Black.S01E03.x265.Dual.Aud.%5BJpn+Eng%5D.720p.10bit.WEBRip.2CH.HEVC-b.mkv";
+s01e04x = "https://series.irupc.xyz/0:/TV.Series/Pacific.Rim.The.Black/S01/iruPC.net_Pacific.Rim.The.Black.S01E04.x265.Dual.Aud.%5BJpn+Eng%5D.720p.10bit.WEBRip.2CH.HEVC-h.mkv";
+s01e05x = "https://series.irupc.xyz/0:/TV.Series/Pacific.Rim.The.Black/S01/iruPC.net_Pacific.Rim.The.Black.S01E05.x265.Dual.Aud.%5BJpn+Eng%5D.720p.10bit.WEBRip.2CH.HEVC-l.mkv";
+s01e06x = "https://series.irupc.xyz/0:/TV.Series/Pacific.Rim.The.Black/S01/iruPC.net_Pacific.Rim.The.Black.S01E06.x265.Dual.Aud.%5BJpn+Eng%5D.720p.10bit.WEBRip.2CH.HEVC-r.mkv";
+s01e07x = "https://series.irupc.xyz/0:/TV.Series/Pacific.Rim.The.Black/S01/iruPC.net_Pacific.Rim.The.Black.S01E07.x265.Dual.Aud.%5BJpn+Eng%5D.720p.10bit.WEBRip.2CH.HEVC-q.mkv";
 
 s01e01y = "https://dl.irupc.xyz/431734821526620/Pacific_Rim_The_Black_S01E01_From_the_Shadows_DUAL_AUDIO_JPN_ENG.mkv";
 s01e02y = "https://dl.irupc.xyz/431752001395804/Pacific_Rim_The_Black_S01E02_Into_the_Black_DUAL_AUDIO_JPN_ENG_720p.mkv";
