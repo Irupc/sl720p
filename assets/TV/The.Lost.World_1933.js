@@ -1,7 +1,7 @@
-lastRes = "480p"; lastSize = "426MB"; lastRip = "WebRip"; lastMsg1 = "Warning! This is x265 (HEVC) Codec"; lastMsg2 = "Some <b>Televisions</b> may not be able to play this video";
-s01Res = "720p"; s01Size = "~350MB"; s01Rip = "WebRip"; s01Msg1 = "Warning! This is x265 (HEVC) Codec"; s01Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s02Res = "720p"; s02Size = "~400MB"; s02Rip = "WebRip"; s02Msg1 = "Warning! This is x265 (HEVC) Codec"; s02Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s03Res = "720p"; s03Size = "~300MB"; s03Rip = "WebRip"; s03Msg1 = "Warning! This is x265 (HEVC) Codec"; s03Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+lastRes = "480p"; lastSize = "194MB"; lastRip = "DVDRip"; lastMsg1 = "x264 Codec Files"; lastMsg2 = "---";
+s01Res = "480p"; s01Size = "~200MB"; s01Rip = "DVDRip"; s01Msg1 = "x264 Codec Files"; s01Msg2 = "---";
+s02Res = "480p"; s02Size = "~213MB"; s02Rip = "DVDRip"; s02Msg1 = "x264 Codec Files"; s02Msg2 = "---";
+s03Res = "480p"; s03Size = "~197MB"; s03Rip = "DVDRip"; s03Msg1 = "x264 Codec Files"; s03Msg2 = "---";
 
 //Season 01 URL
 s01e01x = "https://dl.irupc.xyz/537494096223324/@MovieWorld2000.The.Lost.World.S01E01.The.Journey.Begins.mkv";
