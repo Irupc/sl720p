@@ -1,78 +1,357 @@
-s01Res = "720p"; s01Size = "~330MB"; s01Rip = "BluRay"; s01Msg1 = "Warning! This is x265 (HEVC) Codec"; s01Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s02Res = "720p"; s02Size = "~310MB"; s02Rip = "BluRay"; s02Msg1 = "Warning! This is x265 (HEVC) Codec"; s02Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+lastRes = "720p"; lastSize = "336MB"; lastRip = "WebRip"; lastMsg1 = "Warning! This is x265 (HEVC) Codec"; lastMsg2 = "Some <b>Televisions</b> may not be able to play this video";
+s01Res = "720p"; s01Size = "~350MB"; s01Rip = "BluRay"; s01Msg1 = "Warning! This is x265 (HEVC) Codec"; s01Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+s02Res = "720p"; s02Size = "~316MB"; s02Rip = "BluRay"; s02Msg1 = "Warning! This is x265 (HEVC) Codec"; s02Msg2 = "Some <b>Televisions</b> may not be able to play this video";
 s03Res = "720p"; s03Size = "~317MB"; s03Rip = "BluRay"; s03Msg1 = "Warning! This is x265 (HEVC) Codec"; s03Msg2 = "Some <b>Televisions</b> may not be able to play this video";
 s04Res = "720p"; s04Size = "~317MB"; s04Rip = "BluRay"; s04Msg1 = "Warning! This is x265 (HEVC) Codec"; s04Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s05Res = "720p"; s05Size = "~317MB"; s05Rip = "BluRay"; s05Msg1 = "Warning! This is x265 (HEVC) Codec"; s05Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s06Res = "720p"; s06Size = "~374MB"; s06Rip = "BluRay"; s06Msg1 = "x264 Codec File"; s06Msg2 = "---";
+s05Res = "480p"; s05Size = "~300MB"; s05Rip = "WebDL"; s05Msg1 = "Warning! This is x265 (HEVC) Codec"; s05Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+s06Res = "720p"; s06Size = "~300MB"; s06Rip = "WebDL"; s06Msg1 = "Warning! This is x265 (HEVC) Codec"; s06Msg2 = "Some <b>Televisions</b> may not be able to play this video";
 s07Res = "720p"; s07Size = "~350MB"; s07Rip = "WebDL"; s07Msg1 = "Warning! This is x265 (HEVC) Codec"; s07Msg2 = "Some <b>Televisions</b> may not be able to play this video";
 s08Res = "720p"; s08Size = "~300MB"; s08Rip = "WebRip"; s08Msg1 = "Warning! This is x265 (HEVC) Codec"; s08Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s09Res = "480p"; s09Size = "~198MB"; s09Rip = "HDTV"; s09Msg1 = "x264 Codec File"; s09Msg2 = "---";
-s10res = "720p"; s10size = "~300MB"; s10rip = "WebRip"; s10Msg1 = "x264 Codec File"; s10Msg2 = "---";
+s09Res = "720p"; s09Size = "~300MB"; s09Rip = "WebRip"; s09Msg1 = "Warning! This is x265 (HEVC) Codec"; s09Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+s10Res = "720p"; s10Size = "~300MB"; s10Rip = "WebRip"; s10Msg1 = "Warning! This is x265 (HEVC) Codec"; s10Msg2 = "Some <b>Televisions</b> may not be able to play this video";
 
+/*Enter Your JS Code*/
 //Season 1 URL
-s01e01x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S01/www.irupc.net__E01%20-%20Days%20Gone%20Bye.mkv"; s01e02x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S01/www.irupc.net__E02%20-%20Guts.mkv"; s01e03x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S01/www.irupc.net__E03%20-%20Tell%20It%20to%20the%20Frogs.mkv"; s01e04x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S01/www.irupc.net__E04%20-%20Vatos.mkv"; s01e05x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S01/www.irupc.net__E05%20-%20Wildfire.mkv"; s01e06x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S01/www.irupc.net__E06%20-%20TS-19.mkv";
-//
-s01e01y = "https://irupc-net.herokuapp.com/96916350999644/The.Walking.Dead.S01E01.720p.BluRay.x265-@iMediaShare.mkv"; s01e02y = "https://irupc-net.herokuapp.com/96933530868828/The.Walking.Dead.S01E02.720p.BluRay.x265-@iMediaShare.mkv"; s01e03y = "https://irupc-net.herokuapp.com/96950710738012/The.Walking.Dead.S01E03.720p.BluRay.x265-@iMediaShare.mkv"; s01e04y = "https://irupc-net.herokuapp.com/96967890607196/The.Walking.Dead.S01E04.720p.BluRay.x265-@iMediaShare.mkv"; s01e05y = "https://irupc-net.herokuapp.com/96985070476380/The.Walking.Dead.S01E05.720p.BluRay.x265-@iMediaShare.mkv"; s01e06y = "https://irupc-net.herokuapp.com/97002250345564/The.Walking.Dead.S01E06.720p.BluRay.x265-@iMediaShare.mkv";
+S01E01x = "https://series.irupc.xyz/0:/TV.Series/TWD/S01/iruPC.net_The.Walking.Dead.S01E01.720p.BluRay.x265-t.mkv";
+S01E02x = "https://series.irupc.xyz/0:/TV.Series/TWD/S01/iruPC.net_The.Walking.Dead.S01E02.720p.BluRay.x265-g.mkv";
+S01E03x = "https://series.irupc.xyz/0:/TV.Series/TWD/S01/iruPC.net_The.Walking.Dead.S01E03.720p.BluRay.x265-b.mkv";
+S01E04x = "https://series.irupc.xyz/0:/TV.Series/TWD/S01/iruPC.net_The.Walking.Dead.S01E04.720p.BluRay.x265-d.mkv";
+S01E05x = "https://series.irupc.xyz/0:/TV.Series/TWD/S01/iruPC.net_The.Walking.Dead.S01E05.720p.BluRay.x265-q.mkv";
+S01E06x = "https://series.irupc.xyz/0:/TV.Series/TWD/S01/iruPC.net_The.Walking.Dead.S01E06.720p.BluRay.x265-e.mkv";
+
+S01E01y = "https://dl.irupc.xyz/537150498839644/The.Walking.Dead.S01E01.720p.BluRay.x265-HETeam.mkv";
+S01E02y = "https://dl.irupc.xyz/537167678708828/The.Walking.Dead.S01E02.720p.BluRay.x265-HETeam.mkv";
+S01E03y = "https://dl.irupc.xyz/537184858578012/The.Walking.Dead.S01E03.720p.BluRay.x265-HETeam.mkv";
+S01E04y = "https://dl.irupc.xyz/537202038447196/The.Walking.Dead.S01E04.720p.BluRay.x265-HETeam.mkv";
+S01E05y = "https://dl.irupc.xyz/537219218316380/The.Walking.Dead.S01E05.720p.BluRay.x265-HETeam.mkv";
+S01E06y = "https://dl.irupc.xyz/537236398185564/The.Walking.Dead.S01E06.720p.BluRay.x265-HETeam.mkv";
+
 
 //Season 2 URL
-s02e01x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S02/www.irupc.net__E01_What_Lies_Ahead.mkv"; s02e02x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S02/www.irupc.net__E02_Bloodletting.mkv"; s02e03x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S02/www.irupc.net__E03_Save_the_Last_One.mkv"; s02e04x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S02/www.irupc.net__E04_Cherokee_Rose.mkv"; s02e05x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S02/www.irupc.net__E05_Chupacabra.mkv"; s02e06x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S02/www.irupc.net__E06_Secrets.mkv"; s02e07x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S02/www.irupc.net__E07_Pretty_Much_Dead_Already.mkv"; s02e08x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S02/www.irupc.net__E08_Nebraska.mkv"; s02e09x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S02/www.irupc.net__E09_Triggerfinger.mkv"; s02e10x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S02/www.irupc.net__E10_18_Miles_Out.mkv";
-s02e11x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S02/www.irupc.net__E11_Judge_Jury_Executioner.mkv"; s02e12x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S02/www.irupc.net__E12_Better_Angels.mkv"; s02e13x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S02/www.irupc.net__E13_Beside_the_Dying_Fire.mkv";
-//
-s02e01y = "https://irupc-net.herokuapp.com/97122509429852/The.Walking.Dead.S02E01.720p.BluRay.x265-@iMediaShare.mkv"; s02e02y = "https://irupc-net.herokuapp.com/97139689299036/The.Walking.Dead.S02E02.720p.BluRay.x265-@iMediaShare.mkv"; s02e03y = "https://irupc-net.herokuapp.com/97156869168220/The.Walking.Dead.S02E03.720p.BluRay.x265-@iMediaShare.mkv"; s02e04y = "https://irupc-net.herokuapp.com/97174049037404/The.Walking.Dead.S02E04.720p.BluRay.x265-@iMediaShare.mkv"; s02e05y = "https://irupc-net.herokuapp.com/97191228906588/The.Walking.Dead.S02E05.720p.BluRay.x265-@iMediaShare.mkv"; s02e06y = "https://irupc-net.herokuapp.com/97208408775772/The.Walking.Dead.S02E06.720p.BluRay.x265-@iMediaShare.mkv"; s02e07y = "https://irupc-net.herokuapp.com/97225588644956/The.Walking.Dead.S02E07.720p.BluRay.x265-@iMediaShare.mkv"; s02e08y = "https://irupc-net.herokuapp.com/97242768514140/The.Walking.Dead.S02E08.720p.BluRay.x265-@iMediaShare.mkv"; s02e09y = "https://irupc-net.herokuapp.com/97259948383324/The.Walking.Dead.S02E09.720p.BluRay.x265-@iMediaShare.mkv"; s02e10y = "https://irupc-net.herokuapp.com/97277128252508/The.Walking.Dead.S02E10.720p.BluRay.x265-@iMediaShare.mkv";
-s02e11y = "https://irupc-net.herokuapp.com/97294308121692/The.Walking.Dead.S02E11.720p.BluRay.x265-@iMediaShare.mkv"; s02e12y = "https://irupc-net.herokuapp.com/97311487990876/The.Walking.Dead.S02E12.720p.BluRay.x265-@iMediaShare.mkv"; s02e13y = "https://irupc-net.herokuapp.com/97328667860060/The.Walking.Dead.S02E13.720p.BluRay.x265-@iMediaShare.mkv";
+S02E01x = "https://series.irupc.xyz/0:/TV.Series/TWD/S02/iruPC.net_The.Walking.Dead.S02E01.720p.BluRay.x265-h.mkv";
+S02E02x = "https://series.irupc.xyz/0:/TV.Series/TWD/S02/iruPC.net_The.Walking.Dead.S02E02.720p.BluRay.x265-w.mkv";
+S02E03x = "https://series.irupc.xyz/0:/TV.Series/TWD/S02/iruPC.net_The.Walking.Dead.S02E03.720p.BluRay.x265-t.mkv";
+S02E04x = "https://series.irupc.xyz/0:/TV.Series/TWD/S02/iruPC.net_The.Walking.Dead.S02E04.720p.BluRay.x265-a.mkv";
+S02E05x = "https://series.irupc.xyz/0:/TV.Series/TWD/S02/iruPC.net_The.Walking.Dead.S02E05.720p.BluRay.x265-d.mkv";
+S02E06x = "https://series.irupc.xyz/0:/TV.Series/TWD/S02/iruPC.net_The.Walking.Dead.S02E06.720p.BluRay.x265-q.mkv";
+S02E07x = "https://series.irupc.xyz/0:/TV.Series/TWD/S02/iruPC.net_The.Walking.Dead.S02E07.720p.BluRay.x265-j.mkv";
+S02E08x = "https://series.irupc.xyz/0:/TV.Series/TWD/S02/iruPC.net_The.Walking.Dead.S02E08.720p.BluRay.x265-y.mkv";
+S02E09x = "https://series.irupc.xyz/0:/TV.Series/TWD/S02/iruPC.net_The.Walking.Dead.S02E09.720p.BluRay.x265-u.mkv";
+S02E10x = "https://series.irupc.xyz/0:/TV.Series/TWD/S02/iruPC.net_The.Walking.Dead.S02E10.720p.BluRay.x265-o.mkv";
+S02E11x = "https://series.irupc.xyz/0:/TV.Series/TWD/S02/iruPC.net_The.Walking.Dead.S02E11.720p.BluRay.x265-p.mkv";
+S02E12x = "https://series.irupc.xyz/0:/TV.Series/TWD/S02/iruPC.net_The.Walking.Dead.S02E12.720p.BluRay.x265-f.mkv";
+S02E13x = "https://series.irupc.xyz/0:/TV.Series/TWD/S02/iruPC.net_The.Walking.Dead.S02E13.720p.BluRay.x265-s.mkv";
 
-//Season 3 URL
-s03e01x = "https://irupc-net.herokuapp.com/97569186028636/The.Walking.Dead.S03E01.720p.BluRay.x265-@iMediaShare.mkv"; s03e02x = "https://irupc-net.herokuapp.com/97586365897820/The.Walking.Dead.S03E02.720p.BluRay.x265-@iMediaShare.mkv"; s03e03x = "https://irupc-net.herokuapp.com/97603545767004/The.Walking.Dead.S03E03.720p.BluRay.x265-@iMediaShare.mkv"; s03e04x = "https://irupc-net.herokuapp.com/97620725636188/The.Walking.Dead.S03E04.720p.BluRay.x265-@iMediaShare.mkv"; s03e05x = "https://irupc-net.herokuapp.com/97637905505372/The.Walking.Dead.S03E05.720p.BluRay.x265-@iMediaShare.mkv"; s03e06x = "https://irupc-net.herokuapp.com/97655085374556/The.Walking.Dead.S03E06.720p.BluRay.x265-@iMediaShare.mkv"; s03e07x = "https://irupc-net.herokuapp.com/97672265243740/The.Walking.Dead.S03E07.720p.BluRay.x265-@iMediaShare.mkv"; s03e08x = "https://irupc-net.herokuapp.com/97689445112924/The.Walking.Dead.S03E08.720p.BluRay.x265-@iMediaShare.mkv"; s03e09x = "https://irupc-net.herokuapp.com/97706624982108/The.Walking.Dead.S03E09.720p.BluRay.x265-@iMediaShare.mkv"; s03e10x = "https://irupc-net.herokuapp.com/97723804851292/The.Walking.Dead.S03E10.720p.BluRay.x265-@iMediaShare.mkv";
-s03e11x = "https://irupc-net.herokuapp.com/97740984720476/The.Walking.Dead.S03E11.720p.BluRay.x265-@iMediaShare.mkv"; s03e12x = "https://irupc-net.herokuapp.com/97758164589660/The.Walking.Dead.S03E12.720p.BluRay.x265-@iMediaShare.mkv"; s03e13x = "https://irupc-net.herokuapp.com/97775344458844/The.Walking.Dead.S03E13.720p.BluRay.x265-@iMediaShare.mkv"; s03e14x = "https://irupc-net.herokuapp.com/97792524328028/The.Walking.Dead.S03E14.720p.BluRay.x265-@iMediaShare.mkv"; s03e15x = "https://irupc-net.herokuapp.com/97809704197212/The.Walking.Dead.S03E15.720p.BluRay.x265-@iMediaShare.mkv"; s03e16x = "https://irupc-net.herokuapp.com/97826884066396/The.Walking.Dead.S03E16.720p.BluRay.x265-@iMediaShare.mkv";
-//
-s03e01y = "https://irupc-net.herokuapp.com/97569186028636/The.Walking.Dead.S03E01.720p.BluRay.x265-@iMediaShare.mkv"; s03e02y = "https://irupc-net.herokuapp.com/97586365897820/The.Walking.Dead.S03E02.720p.BluRay.x265-@iMediaShare.mkv"; s03e03y = "https://irupc-net.herokuapp.com/97603545767004/The.Walking.Dead.S03E03.720p.BluRay.x265-@iMediaShare.mkv"; s03e04y = "https://irupc-net.herokuapp.com/97620725636188/The.Walking.Dead.S03E04.720p.BluRay.x265-@iMediaShare.mkv"; s03e05y = "https://irupc-net.herokuapp.com/97637905505372/The.Walking.Dead.S03E05.720p.BluRay.x265-@iMediaShare.mkv"; s03e06y = "https://irupc-net.herokuapp.com/97655085374556/The.Walking.Dead.S03E06.720p.BluRay.x265-@iMediaShare.mkv"; s03e07y = "https://irupc-net.herokuapp.com/97672265243740/The.Walking.Dead.S03E07.720p.BluRay.x265-@iMediaShare.mkv"; s03e08y = "https://irupc-net.herokuapp.com/97689445112924/The.Walking.Dead.S03E08.720p.BluRay.x265-@iMediaShare.mkv"; s03e09y = "https://irupc-net.herokuapp.com/97706624982108/The.Walking.Dead.S03E09.720p.BluRay.x265-@iMediaShare.mkv"; s03e10y = "https://irupc-net.herokuapp.com/97723804851292/The.Walking.Dead.S03E10.720p.BluRay.x265-@iMediaShare.mkv";
-s03e11y = "https://irupc-net.herokuapp.com/97740984720476/The.Walking.Dead.S03E11.720p.BluRay.x265-@iMediaShare.mkv"; s03e12y = "https://irupc-net.herokuapp.com/97758164589660/The.Walking.Dead.S03E12.720p.BluRay.x265-@iMediaShare.mkv"; s03e13y = "https://irupc-net.herokuapp.com/97775344458844/The.Walking.Dead.S03E13.720p.BluRay.x265-@iMediaShare.mkv"; s03e14y = "https://irupc-net.herokuapp.com/97792524328028/The.Walking.Dead.S03E14.720p.BluRay.x265-@iMediaShare.mkv"; s03e15y = "https://irupc-net.herokuapp.com/97809704197212/The.Walking.Dead.S03E15.720p.BluRay.x265-@iMediaShare.mkv"; s03e16y = "https://irupc-net.herokuapp.com/97826884066396/The.Walking.Dead.S03E16.720p.BluRay.x265-@iMediaShare.mkv";
+S02E01y = "https://irupc-net.herokuapp.com/97122509429852/The.Walking.Dead.S02E01.720p.BluRay.x265-@iMediaShare.mkv";
+S02E02y = "https://irupc-net.herokuapp.com/97139689299036/The.Walking.Dead.S02E02.720p.BluRay.x265-@iMediaShare.mkv";
+S02E03y = "https://irupc-net.herokuapp.com/97156869168220/The.Walking.Dead.S02E03.720p.BluRay.x265-@iMediaShare.mkv";
+S02E04y = "https://irupc-net.herokuapp.com/97174049037404/The.Walking.Dead.S02E04.720p.BluRay.x265-@iMediaShare.mkv";
+S02E05y = "https://irupc-net.herokuapp.com/97191228906588/The.Walking.Dead.S02E05.720p.BluRay.x265-@iMediaShare.mkv";
+S02E06y = "https://irupc-net.herokuapp.com/97208408775772/The.Walking.Dead.S02E06.720p.BluRay.x265-@iMediaShare.mkv";
+S02E07y = "https://irupc-net.herokuapp.com/97225588644956/The.Walking.Dead.S02E07.720p.BluRay.x265-@iMediaShare.mkv";
+S02E08y = "https://irupc-net.herokuapp.com/97242768514140/The.Walking.Dead.S02E08.720p.BluRay.x265-@iMediaShare.mkv";
+S02E09y = "https://irupc-net.herokuapp.com/97259948383324/The.Walking.Dead.S02E09.720p.BluRay.x265-@iMediaShare.mkv";
+S02E10y = "https://irupc-net.herokuapp.com/97277128252508/The.Walking.Dead.S02E10.720p.BluRay.x265-@iMediaShare.mkv";
+S02E11y = "https://irupc-net.herokuapp.com/97294308121692/The.Walking.Dead.S02E11.720p.BluRay.x265-@iMediaShare.mkv";
+S02E12y = "https://irupc-net.herokuapp.com/97311487990876/The.Walking.Dead.S02E12.720p.BluRay.x265-@iMediaShare.mkv";
+S02E13y = "https://irupc-net.herokuapp.com/97328667860060/The.Walking.Dead.S02E13.720p.BluRay.x265-@iMediaShare.mkv";
 
-//Season 4 URL
-s04e01x = "https://irupc-net.herokuapp.com/98118941842524/The.Walking.Dead.S04E01.720p.BluRay.x265-@iMediaShare.mkv"; s04e02x = "https://irupc-net.herokuapp.com/98136121711708/The.Walking.Dead.S04E02.720p.BluRay.x265-@iMediaShare.mkv"; s04e03x = "https://irupc-net.herokuapp.com/98153301580892/The.Walking.Dead.S04E03.720p.BluRay.x265-@iMediaShare.mkv"; s04e04x = "https://irupc-net.herokuapp.com/98170481450076/The.Walking.Dead.S04E04.720p.BluRay.x265-@iMediaShare.mkv"; s04e05x = "https://irupc-net.herokuapp.com/98187661319260/The.Walking.Dead.S04E05.720p.BluRay.x265-@iMediaShare.mkv"; s04e06x = "https://irupc-net.herokuapp.com/98204841188444/The.Walking.Dead.S04E06.720p.BluRay.x265-@iMediaShare.mkv"; s04e07x = "https://irupc-net.herokuapp.com/98222021057628/The.Walking.Dead.S04E07.720p.BluRay.x265-@iMediaShare.mkv"; s04e08x = "https://irupc-net.herokuapp.com/98239200926812/The.Walking.Dead.S04E08.720p.BluRay.x265-@iMediaShare.mkv"; s04e09x = "https://irupc-net.herokuapp.com/98256380795996/The.Walking.Dead.S04E09.720p.BluRay.x265-@iMediaShare.mkv"; s04e10x = "https://irupc-net.herokuapp.com/98273560665180/The.Walking.Dead.S04E10.720p.BluRay.x265-@iMediaShare.mkv";
-s04e11x = "https://irupc-net.herokuapp.com/98290740534364/The.Walking.Dead.S04E11.720p.BluRay.x265-@iMediaShare.mkv"; s04e12x = "https://irupc-net.herokuapp.com/98307920403548/The.Walking.Dead.S04E12.720p.BluRay.x265-@iMediaShare.mkv"; s04e13x = "https://irupc-net.herokuapp.com/98325100272732/The.Walking.Dead.S04E13.720p.BluRay.x265-@iMediaShare.mkv"; s04e14x = "https://irupc-net.herokuapp.com/98342280141916/The.Walking.Dead.S04E14.720p.BluRay.x265-@iMediaShare.mkv"; s04e15x = "https://irupc-net.herokuapp.com/98359460011100/The.Walking.Dead.S04E15.720p.BluRay.x265-@iMediaShare.mkv"; s04e16x = "https://irupc-net.herokuapp.com/98376639880284/The.Walking.Dead.S04E16.720p.BluRay.x265-@iMediaShare.mkv";
-//
-s04e01y = "https://irupc-net.herokuapp.com/98118941842524/The.Walking.Dead.S04E01.720p.BluRay.x265-@iMediaShare.mkv"; s04e02y = "https://irupc-net.herokuapp.com/98136121711708/The.Walking.Dead.S04E02.720p.BluRay.x265-@iMediaShare.mkv"; s04e03y = "https://irupc-net.herokuapp.com/98153301580892/The.Walking.Dead.S04E03.720p.BluRay.x265-@iMediaShare.mkv"; s04e04y = "https://irupc-net.herokuapp.com/98170481450076/The.Walking.Dead.S04E04.720p.BluRay.x265-@iMediaShare.mkv"; s04e05y = "https://irupc-net.herokuapp.com/98187661319260/The.Walking.Dead.S04E05.720p.BluRay.x265-@iMediaShare.mkv"; s04e06y = "https://irupc-net.herokuapp.com/98204841188444/The.Walking.Dead.S04E06.720p.BluRay.x265-@iMediaShare.mkv"; s04e07y = "https://irupc-net.herokuapp.com/98222021057628/The.Walking.Dead.S04E07.720p.BluRay.x265-@iMediaShare.mkv"; s04e08y = "https://irupc-net.herokuapp.com/98239200926812/The.Walking.Dead.S04E08.720p.BluRay.x265-@iMediaShare.mkv"; s04e09y = "https://irupc-net.herokuapp.com/98256380795996/The.Walking.Dead.S04E09.720p.BluRay.x265-@iMediaShare.mkv"; s04e10y = "https://irupc-net.herokuapp.com/98273560665180/The.Walking.Dead.S04E10.720p.BluRay.x265-@iMediaShare.mkv";
-s04e11y = "https://irupc-net.herokuapp.com/98290740534364/The.Walking.Dead.S04E11.720p.BluRay.x265-@iMediaShare.mkv"; s04e12y = "https://irupc-net.herokuapp.com/98307920403548/The.Walking.Dead.S04E12.720p.BluRay.x265-@iMediaShare.mkv"; s04e13y = "https://irupc-net.herokuapp.com/98325100272732/The.Walking.Dead.S04E13.720p.BluRay.x265-@iMediaShare.mkv"; s04e14y = "https://irupc-net.herokuapp.com/98342280141916/The.Walking.Dead.S04E14.720p.BluRay.x265-@iMediaShare.mkv"; s04e15y = "https://irupc-net.herokuapp.com/98359460011100/The.Walking.Dead.S04E15.720p.BluRay.x265-@iMediaShare.mkv"; s04e16y = "https://irupc-net.herokuapp.com/98376639880284/The.Walking.Dead.S04E16.720p.BluRay.x265-@iMediaShare.mkv";
 
-//Season 5 URL
-s05e01x = "https://irupc-net.herokuapp.com/98668697656412/The.Walking.Dead.S05E01.720p.BluRay.x265-@iMediaShare.mkv"; s05e02x = "https://irupc-net.herokuapp.com/98685877525596/The.Walking.Dead.S05E02.720p.BluRay.x265-@iMediaShare.mkv"; s05e03x = "https://irupc-net.herokuapp.com/98703057394780/The.Walking.Dead.S05E03.720p.BluRay.x265-@iMediaShare.mkv"; s05e04x = "https://irupc-net.herokuapp.com/98720237263964/The.Walking.Dead.S05E04.720p.BluRay.x265-@iMediaShare.mkv"; s05e05x = "https://irupc-net.herokuapp.com/98737417133148/The.Walking.Dead.S05E05.720p.BluRay.x265-@iMediaShare.mkv"; s05e06x = "https://irupc-net.herokuapp.com/98754597002332/The.Walking.Dead.S05E06.720p.BluRay.x265-@iMediaShare.mkv"; s05e07x = "https://irupc-net.herokuapp.com/98771776871516/The.Walking.Dead.S05E07.720p.BluRay.x265-@iMediaShare.mkv"; s05e08x = "https://irupc-net.herokuapp.com/98788956740700/The.Walking.Dead.S05E08.720p.BluRay.x265-@iMediaShare.mkv"; s05e09x = "https://irupc-net.herokuapp.com/98806136609884/The.Walking.Dead.S05E09.720p.BluRay.x265-@iMediaShare.mkv"; s05e10x = "https://irupc-net.herokuapp.com/98823316479068/The.Walking.Dead.S05E10.720p.BluRay.x265-@iMediaShare.mkv";
-s05e11x = "https://irupc-net.herokuapp.com/98840496348252/The.Walking.Dead.S05E11.720p.BluRay.x265-@iMediaShare.mkv"; s05e12x = "https://irupc-net.herokuapp.com/98857676217436/The.Walking.Dead.S05E12.720p.BluRay.x265-@iMediaShare.mkv"; s05e13x = "https://irupc-net.herokuapp.com/98874856086620/The.Walking.Dead.S05E13.720p.BluRay.x265-@iMediaShare.mkv"; s05e14x = "https://irupc-net.herokuapp.com/98892035955804/The.Walking.Dead.S05E14.720p.BluRay.x265-@iMediaShare.mkv"; s05e15x = "https://irupc-net.herokuapp.com/98909215824988/The.Walking.Dead.S05E15.720p.BluRay.x265-@iMediaShare.mkv"; s05e16x = "https://irupc-net.herokuapp.com/98926395694172/The.Walking.Dead.S05E16.720p.BluRay.x265-@iMediaShare.mkv";
-//
-s05e01y = "https://irupc-net.herokuapp.com/98668697656412/The.Walking.Dead.S05E01.720p.BluRay.x265-@iMediaShare.mkv"; s05e02y = "https://irupc-net.herokuapp.com/98685877525596/The.Walking.Dead.S05E02.720p.BluRay.x265-@iMediaShare.mkv"; s05e03y = "https://irupc-net.herokuapp.com/98703057394780/The.Walking.Dead.S05E03.720p.BluRay.x265-@iMediaShare.mkv"; s05e04y = "https://irupc-net.herokuapp.com/98720237263964/The.Walking.Dead.S05E04.720p.BluRay.x265-@iMediaShare.mkv"; s05e05y = "https://irupc-net.herokuapp.com/98737417133148/The.Walking.Dead.S05E05.720p.BluRay.x265-@iMediaShare.mkv"; s05e06y = "https://irupc-net.herokuapp.com/98754597002332/The.Walking.Dead.S05E06.720p.BluRay.x265-@iMediaShare.mkv"; s05e07y = "https://irupc-net.herokuapp.com/98771776871516/The.Walking.Dead.S05E07.720p.BluRay.x265-@iMediaShare.mkv"; s05e08y = "https://irupc-net.herokuapp.com/98788956740700/The.Walking.Dead.S05E08.720p.BluRay.x265-@iMediaShare.mkv"; s05e09y = "https://irupc-net.herokuapp.com/98806136609884/The.Walking.Dead.S05E09.720p.BluRay.x265-@iMediaShare.mkv"; s05e10y = "https://irupc-net.herokuapp.com/98823316479068/The.Walking.Dead.S05E10.720p.BluRay.x265-@iMediaShare.mkv";
-s05e11y = "https://irupc-net.herokuapp.com/98840496348252/The.Walking.Dead.S05E11.720p.BluRay.x265-@iMediaShare.mkv"; s05e12y = "https://irupc-net.herokuapp.com/98857676217436/The.Walking.Dead.S05E12.720p.BluRay.x265-@iMediaShare.mkv"; s05e13y = "https://irupc-net.herokuapp.com/98874856086620/The.Walking.Dead.S05E13.720p.BluRay.x265-@iMediaShare.mkv"; s05e14y = "https://irupc-net.herokuapp.com/98892035955804/The.Walking.Dead.S05E14.720p.BluRay.x265-@iMediaShare.mkv"; s05e15y = "https://irupc-net.herokuapp.com/98909215824988/The.Walking.Dead.S05E15.720p.BluRay.x265-@iMediaShare.mkv"; s05e16y = "https://irupc-net.herokuapp.com/98926395694172/The.Walking.Dead.S05E16.720p.BluRay.x265-@iMediaShare.mkv";
+//Season 03 URL
+S03E01x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E01.720p.BluRay.x265-o.mkv";
+S03E02x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E02.720p.BluRay.x265-f.mkv";
+S03E03x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E03.720p.BluRay.x265-a.mkv";
+S03E04x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E04.720p.BluRay.x265-d.mkv";
+S03E05x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E05.720p.BluRay.x265-g.mkv";
+S03E06x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E06.720p.BluRay.x265-e.mkv";
+S03E07x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E07.720p.BluRay.x265-w.mkv";
+S03E08x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E08.720p.BluRay.x265-y.mkv";
+S03E09x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E09.720p.BluRay.x265-u.mkv";
+S03E10x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E10.720p.BluRay.x265-i.mkv";
+S03E11x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E11.720p.BluRay.x265-o.mkv";
+S03E12x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E12.720p.BluRay.x265-p.mkv";
+S03E13x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E13.720p.BluRay.x265-g.mkv";
+S03E14x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E14.720p.BluRay.x265-d.mkv";
+S03E15x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E15.720p.BluRay.x265-b.mkv";
+S03E16x = "https://series.irupc.xyz/0:/TV.Series/TWD/S03/iruPC.net_The.Walking.Dead.S03E16.720p.BluRay.x265-v.mkv";
 
-//Season 6 URL
-s06e01x = "https://irupc-net.herokuapp.com/99218453470300/The.Walking.Dead.S06E01.720p.BluRay.x264-@iMediaShare.mkv"; s06e02x = "https://irupc-net.herokuapp.com/99235633339484/The.Walking.Dead.S06E02.720p.BluRay.x264-@iMediaShare.mkv"; s06e03x = "https://irupc-net.herokuapp.com/99252813208668/The.Walking.Dead.S06E03.720p.BluRay.x264-@iMediaShare.mkv"; s06e04x = "https://irupc-net.herokuapp.com/99269993077852/The.Walking.Dead.S06E04.720p.BluRay.x264-@iMediaShare.mkv"; s06e05x = "https://irupc-net.herokuapp.com/99287172947036/The.Walking.Dead.S06E05.720p.BluRay.x264-@iMediaShare.mkv"; s06e06x = "https://irupc-net.herokuapp.com/99304352816220/The.Walking.Dead.S06E06.720p.BluRay.x264-@iMediaShare.mkv"; s06e07x = "https://irupc-net.herokuapp.com/99321532685404/The.Walking.Dead.S06E07.720p.BluRay.x264-@iMediaShare.mkv"; s06e08x = "https://irupc-net.herokuapp.com/99338712554588/The.Walking.Dead.S06E08.720p.BluRay.x264-@iMediaShare.mkv"; s06e09x = "https://irupc-net.herokuapp.com/99355892423772/The.Walking.Dead.S06E09.720p.BluRay.x264-@iMediaShare.mkv"; s06e10x = "https://irupc-net.herokuapp.com/99373072292956/The.Walking.Dead.S06E10.720p.BluRay.x264-@iMediaShare.mkv";
-s06e11x = "https://irupc-net.herokuapp.com/99390252162140/The.Walking.Dead.S06E11.720p.BluRay.x264-@iMediaShare.mkv"; s06e12x = "https://irupc-net.herokuapp.com/99407432031324/The.Walking.Dead.S06E12.720p.BluRay.x264-@iMediaShare.mkv"; s06e13x = "https://irupc-net.herokuapp.com/99424611900508/The.Walking.Dead.S06E13.720p.BluRay.x264-@iMediaShare.mkv"; s06e14x = "https://irupc-net.herokuapp.com/99441791769692/The.Walking.Dead.S06E14.720p.BluRay.x264-@iMediaShare.mkv"; s06e15x = "https://irupc-net.herokuapp.com/99458971638876/The.Walking.Dead.S06E15.720p.BluRay.x264-@iMediaShare.mkv"; s06e16x = "https://irupc-net.herokuapp.com/99476151508060/The.Walking.Dead.S06E16.720p.BluRay.x264-@iMediaShare.mkv";
-//
-s06e01y = "https://irupc-net.herokuapp.com/99218453470300/The.Walking.Dead.S06E01.720p.BluRay.x264-@iMediaShare.mkv"; s06e02y = "https://irupc-net.herokuapp.com/99235633339484/The.Walking.Dead.S06E02.720p.BluRay.x264-@iMediaShare.mkv"; s06e03y = "https://irupc-net.herokuapp.com/99252813208668/The.Walking.Dead.S06E03.720p.BluRay.x264-@iMediaShare.mkv"; s06e04y = "https://irupc-net.herokuapp.com/99269993077852/The.Walking.Dead.S06E04.720p.BluRay.x264-@iMediaShare.mkv"; s06e05y = "https://irupc-net.herokuapp.com/99287172947036/The.Walking.Dead.S06E05.720p.BluRay.x264-@iMediaShare.mkv"; s06e06y = "https://irupc-net.herokuapp.com/99304352816220/The.Walking.Dead.S06E06.720p.BluRay.x264-@iMediaShare.mkv"; s06e07y = "https://irupc-net.herokuapp.com/99321532685404/The.Walking.Dead.S06E07.720p.BluRay.x264-@iMediaShare.mkv"; s06e08y = "https://irupc-net.herokuapp.com/99338712554588/The.Walking.Dead.S06E08.720p.BluRay.x264-@iMediaShare.mkv"; s06e09y = "https://irupc-net.herokuapp.com/99355892423772/The.Walking.Dead.S06E09.720p.BluRay.x264-@iMediaShare.mkv"; s06e10y = "https://irupc-net.herokuapp.com/99373072292956/The.Walking.Dead.S06E10.720p.BluRay.x264-@iMediaShare.mkv";
-s06e11y = "https://irupc-net.herokuapp.com/99390252162140/The.Walking.Dead.S06E11.720p.BluRay.x264-@iMediaShare.mkv"; s06e12y = "https://irupc-net.herokuapp.com/99407432031324/The.Walking.Dead.S06E12.720p.BluRay.x264-@iMediaShare.mkv"; s06e13y = "https://irupc-net.herokuapp.com/99424611900508/The.Walking.Dead.S06E13.720p.BluRay.x264-@iMediaShare.mkv"; s06e14y = "https://irupc-net.herokuapp.com/99441791769692/The.Walking.Dead.S06E14.720p.BluRay.x264-@iMediaShare.mkv"; s06e15y = "https://irupc-net.herokuapp.com/99458971638876/The.Walking.Dead.S06E15.720p.BluRay.x264-@iMediaShare.mkv"; s06e16y = "https://irupc-net.herokuapp.com/99476151508060/The.Walking.Dead.S06E16.720p.BluRay.x264-@iMediaShare.mkv";
+S03E01y = "https://dl.irupc.xyz/239148487973980/The.Walking.Dead.S03E01.720p.BluRay.x265-@iMediaShare.mkv";
+S03E02y = "https://dl.irupc.xyz/239165667843164/The.Walking.Dead.S03E02.720p.BluRay.x265-@iMediaShare.mkv";
+S03E03y = "https://dl.irupc.xyz/239182847712348/The.Walking.Dead.S03E03.720p.BluRay.x265-@iMediaShare.mkv";
+S03E04y = "https://dl.irupc.xyz/239200027581532/The.Walking.Dead.S03E04.720p.BluRay.x265-@iMediaShare.mkv";
+S03E05y = "https://dl.irupc.xyz/239217207450716/The.Walking.Dead.S03E05.720p.BluRay.x265-@iMediaShare.mkv";
+S03E06y = "https://dl.irupc.xyz/239234387319900/The.Walking.Dead.S03E06.720p.BluRay.x265-@iMediaShare.mkv";
+S03E07y = "https://dl.irupc.xyz/239251567189084/The.Walking.Dead.S03E07.720p.BluRay.x265-@iMediaShare.mkv";
+S03E08y = "https://dl.irupc.xyz/239268747058268/The.Walking.Dead.S03E08.720p.BluRay.x265-@iMediaShare.mkv";
+S03E09y = "https://dl.irupc.xyz/239285926927452/The.Walking.Dead.S03E09.720p.BluRay.x265-@iMediaShare.mkv";
+S03E10y = "https://dl.irupc.xyz/239303106796636/The.Walking.Dead.S03E10.720p.BluRay.x265-@iMediaShare.mkv";
+S03E11y = "https://dl.irupc.xyz/239320286665820/The.Walking.Dead.S03E11.720p.BluRay.x265-@iMediaShare.mkv";
+S03E12y = "https://dl.irupc.xyz/239337466535004/The.Walking.Dead.S03E12.720p.BluRay.x265-@iMediaShare.mkv";
+S03E13y = "https://dl.irupc.xyz/239354646404188/The.Walking.Dead.S03E13.720p.BluRay.x265-@iMediaShare.mkv";
+S03E14y = "https://dl.irupc.xyz/239371826273372/The.Walking.Dead.S03E14.720p.BluRay.x265-@iMediaShare.mkv";
+S03E15y = "https://dl.irupc.xyz/239389006142556/The.Walking.Dead.S03E15.720p.BluRay.x265-@iMediaShare.mkv";
+S03E16y = "https://dl.irupc.xyz/239406186011740/The.Walking.Dead.S03E16.720p.BluRay.x265-@iMediaShare.mkv";
 
-//Season 7 URL
-s07e01x = "https://irupc-net.herokuapp.com/99768209284188/The.Walking.Dead.S07E01.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e02x = "https://irupc-net.herokuapp.com/99785389153372/The.Walking.Dead.S07E02.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e03x = "https://irupc-net.herokuapp.com/99802569022556/The.Walking.Dead.S07E03.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e04x = "https://irupc-net.herokuapp.com/99819748891740/The.Walking.Dead.S07E04.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e05x = "https://irupc-net.herokuapp.com/99836928760924/The.Walking.Dead.S07E05.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e06x = "https://irupc-net.herokuapp.com/99854108630108/The.Walking.Dead.S07E06.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e07x = "https://irupc-net.herokuapp.com/99871288499292/The.Walking.Dead.S07E07.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e08x = "https://irupc-net.herokuapp.com/99888468368476/The.Walking.Dead.S07E08.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e09x = "https://irupc-net.herokuapp.com/99905648237660/The.Walking.Dead.S07E09.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e10x = "https://irupc-net.herokuapp.com/99922828106844/The.Walking.Dead.S07E10.720p.WEB-DL.2CH.x265-@iMediaShare.mkv";
-s07e11x = "https://irupc-net.herokuapp.com/99940007976028/The.Walking.Dead.S07E11.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e12x = "https://irupc-net.herokuapp.com/99957187845212/The.Walking.Dead.S07E12.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e13x = "https://irupc-net.herokuapp.com/99974367714396/The.Walking.Dead.S07E13.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e14x = "https://irupc-net.herokuapp.com/99991547583580/The.Walking.Dead.S07E14.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e15x = "https://irupc-net.herokuapp.com/100008727452764/The.Walking.Dead.S07E15.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e16x = "https://irupc-net.herokuapp.com/100025907321948/The.Walking.Dead.S07E16.720p.WEB-DL.2CH.x265-@iMediaShare.mkv";
-//
-s07e01y = "https://irupc-net.herokuapp.com/99768209284188/The.Walking.Dead.S07E01.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e02y = "https://irupc-net.herokuapp.com/99785389153372/The.Walking.Dead.S07E02.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e03y = "https://irupc-net.herokuapp.com/99802569022556/The.Walking.Dead.S07E03.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e04y = "https://irupc-net.herokuapp.com/99819748891740/The.Walking.Dead.S07E04.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e05y = "https://irupc-net.herokuapp.com/99836928760924/The.Walking.Dead.S07E05.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e06y = "https://irupc-net.herokuapp.com/99854108630108/The.Walking.Dead.S07E06.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e07y = "https://irupc-net.herokuapp.com/99871288499292/The.Walking.Dead.S07E07.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e08y = "https://irupc-net.herokuapp.com/99888468368476/The.Walking.Dead.S07E08.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e09y = "https://irupc-net.herokuapp.com/99905648237660/The.Walking.Dead.S07E09.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e10y = "https://irupc-net.herokuapp.com/99922828106844/The.Walking.Dead.S07E10.720p.WEB-DL.2CH.x265-@iMediaShare.mkv";
-s07e11y = "https://irupc-net.herokuapp.com/99940007976028/The.Walking.Dead.S07E11.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e12y = "https://irupc-net.herokuapp.com/99957187845212/The.Walking.Dead.S07E12.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e13y = "https://irupc-net.herokuapp.com/99974367714396/The.Walking.Dead.S07E13.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e14y = "https://irupc-net.herokuapp.com/99991547583580/The.Walking.Dead.S07E14.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e15y = "https://irupc-net.herokuapp.com/100008727452764/The.Walking.Dead.S07E15.720p.WEB-DL.2CH.x265-@iMediaShare.mkv"; s07e16y = "https://irupc-net.herokuapp.com/100025907321948/The.Walking.Dead.S07E16.720p.WEB-DL.2CH.x265-@iMediaShare.mkv";
 
-//Season 8 URL
-s08e01x = "https://dl.irupc.xyz/340080219429980/The.Walking.Dead.S08E01.720p.WEB-DL.2CH.x265.mkv"; s08e02x = "https://dl.irupc.xyz/340097399299164/The.Walking.Dead.S08E02.720p.WEB-DL.2CH.x265.mkv"; s08e03x = "https://dl.irupc.xyz/340114579168348/The.Walking.Dead.S08E03.720p.WEB-DL.2CH.x265.mkv"; s08e04x = "https://dl.irupc.xyz/340131759037532/The.Walking.Dead.S08E04.720p.WEB-DL.2CH.x265.mkv"; s08e05x = "https://dl.irupc.xyz/340148938906716/The.Walking.Dead.S08E05.720p.WEB-DL.2CH.x265.mkv"; s08e06x = "https://dl.irupc.xyz/340166118775900/The.Walking.Dead.S08E06.720p.WEB-DL.2CH.x265.mkv"; s08e07x = "https://dl.irupc.xyz/340183298645084/The.Walking.Dead.S08E07.720p.WEB-DL.2CH.x265.mkv"; s08e08x = "https://dl.irupc.xyz/340200478514268/The.Walking.Dead.S08E08.720p.WEB-DL.2CH.x265.mkv"; s08e09x = "https://dl.irupc.xyz/340217658383452/Madridista:%0AThe.Walking.Dead.S08E09.720p.WEB-DL.2CH.x265.mkv"; s08e10x = "https://dl.irupc.xyz/340234838252636/The.Walking.Dead.S08E10.720p.WEB-DL.2CH.x265.mkv";
-s08e11x = "https://dl.irupc.xyz/340252018121820/The.Walking.Dead.S08E11.720p.WEB-DL.2CH.x265.mkv"; s08e12x = "https://dl.irupc.xyz/340269197991004/The.Walking.Dead.S08E12.720p.WEB-DL.2CH.x265.mkv"; s08e13x = "https://dl.irupc.xyz/340286377860188/The.Walking.Dead.S08E13.720p.WEB-DL.2CH.x265.mkv"; s08e14x = "https://dl.irupc.xyz/340303557729372/The.Walking.Dead.S08E14.720p.WEB-DL.2CH.x265.mkv"; s08e15x = "https://dl.irupc.xyz/340320737598556/The.Walking.Dead.S08E15.720p.WEB-DL.2CH.x265.mkv"; s08e16x = "https://dl.irupc.xyz/340337917467740/The.Walking.Dead.S08E16.720p.WEB-DL.2CH.x265.mkv";
-//
-s08e01y = "https://dl.irupc.xyz/340080219429980/The.Walking.Dead.S08E01.720p.WEB-DL.2CH.x265.mkv"; s08e02y = "https://dl.irupc.xyz/340097399299164/The.Walking.Dead.S08E02.720p.WEB-DL.2CH.x265.mkv"; s08e03y = "https://dl.irupc.xyz/340114579168348/The.Walking.Dead.S08E03.720p.WEB-DL.2CH.x265.mkv"; s08e04y = "https://dl.irupc.xyz/340131759037532/The.Walking.Dead.S08E04.720p.WEB-DL.2CH.x265.mkv"; s08e05y = "https://dl.irupc.xyz/340148938906716/The.Walking.Dead.S08E05.720p.WEB-DL.2CH.x265.mkv"; s08e06y = "https://dl.irupc.xyz/340166118775900/The.Walking.Dead.S08E06.720p.WEB-DL.2CH.x265.mkv"; s08e07y = "https://dl.irupc.xyz/340183298645084/The.Walking.Dead.S08E07.720p.WEB-DL.2CH.x265.mkv"; s08e08y = "https://dl.irupc.xyz/340200478514268/The.Walking.Dead.S08E08.720p.WEB-DL.2CH.x265.mkv"; s08e09y = "https://dl.irupc.xyz/340217658383452/Madridista:%0AThe.Walking.Dead.S08E09.720p.WEB-DL.2CH.x265.mkv"; s08e10y = "https://dl.irupc.xyz/340234838252636/The.Walking.Dead.S08E10.720p.WEB-DL.2CH.x265.mkv";
-s08e11y = "https://dl.irupc.xyz/340252018121820/The.Walking.Dead.S08E11.720p.WEB-DL.2CH.x265.mkv"; s08e12y = "https://dl.irupc.xyz/340269197991004/The.Walking.Dead.S08E12.720p.WEB-DL.2CH.x265.mkv"; s08e13y = "https://dl.irupc.xyz/340286377860188/The.Walking.Dead.S08E13.720p.WEB-DL.2CH.x265.mkv"; s08e14y = "https://dl.irupc.xyz/340303557729372/The.Walking.Dead.S08E14.720p.WEB-DL.2CH.x265.mkv"; s08e15y = "https://dl.irupc.xyz/340320737598556/The.Walking.Dead.S08E15.720p.WEB-DL.2CH.x265.mkv"; s08e16y = "https://dl.irupc.xyz/340337917467740/The.Walking.Dead.S08E16.720p.WEB-DL.2CH.x265.mkv";
+//Season 04 URL
+S04E01x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E01.720p.BluRay.x265-g.mkv";
+S04E02x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E02.720p.BluRay.x265-v.mkv";
+S04E03x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E03.720p.BluRay.x265-s.mkv";
+S04E04x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E04.720p.BluRay.x265-f.mkv";
+S04E05x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E05.720p.BluRay.x265-g.mkv";
+S04E06x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E06.720p.BluRay.x265-e.mkv";
+S04E07x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E07.720p.BluRay.x265-q.mkv";
+S04E08x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E08.720p.BluRay.x265-w.mkv";
+S04E09x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E09.720p.BluRay.x265-r.mkv";
+S04E10x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E10.720p.BluRay.x265-y.mkv";
+S04E11x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E11.720p.BluRay.x265-u.mkv";
+S04E12x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E12.720p.BluRay.x265-i.mkv";
+S04E13x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E13.720p.BluRay.x265-o.mkv";
+S04E14x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E14.720p.BluRay.x265-p.mkv";
+S04E15x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E15.720p.BluRay.x265-f.mkv";
+S04E16x = "https://series.irupc.xyz/0:/TV.Series/TWD/S04/iruPC.net_The.Walking.Dead.S04E16.720p.BluRay.x265-v.mkv";
 
-//Season 9 URL
-s09e01x = "https://dl.irupc.xyz/340629975243868/the.walking.dead.s09e01.480p.web_dl.mkv"; s09e02x = "https://dl.irupc.xyz/340647155113052/the.walking.dead.s09e02.480p.hdtv.x264.rmteam.mkv"; s09e03x = "https://dl.irupc.xyz/340664334982236/the.walking.dead.s09e03.480p.hdtv.mkv"; s09e04x = "https://dl.irupc.xyz/340681514851420/the.walking.dead.s09e04.480p.hdtv.mkv"; s09e05x = "https://dl.irupc.xyz/340698694720604/the.walking.dead.s09e05.480p.web_dl.mkv"; s09e06x = "https://dl.irupc.xyz/340715874589788/the.walking.dead.s09e06.480p.hdtv.mkv"; s09e07x = "https://dl.irupc.xyz/340733054458972/the.walking.dead.s09e07.480p.hdtv.mkv"; s09e08x = "https://dl.irupc.xyz/340750234328156/the.walking.dead.s09e08.480p.hdtv.mkv"; s09e09x = "https://dl.irupc.xyz/340767414197340/The.Walking.Dead.S09E09.480p.WEB_DL.%5BMojoo.ir%5D.mkv"; s09e10x = "https://dl.irupc.xyz/340784594066524/The.Walking.Dead.S09E10.480p.HDTV.RMTeam%5BMojoo.ir%5D.mkv";
-s09e11x = "https://dl.irupc.xyz/382823733959772/The.Walking.Dead.S09E11.Bounty.720p.AMZN.WEB-DL.MkvCage.mkv"; s09e12x = "https://dl.irupc.xyz/340818953804892/The.Walking.Dead.S09E12.480p.WEB.RMT.%5BMojoo.ir%5D.mkv"; s09e13x = "https://dl.irupc.xyz/340836133674076/The.Walking.Dead.S09E13.480p.WEB.RMT.%5BMojoo.ir%5D.mkv"; s09e14x = "https://dl.irupc.xyz/340853313543260/the.walking.dead.s09e14.480p.hdtv.x264.rmteam.%5BMojoo.ir%5D.mkv"; s09e15x = "https://dl.irupc.xyz/340870493412444/The.Walking.Dead.S09E15.480p.HDTV.x264.%5BMojoo.ir%5D.mkv"; s09e16x = "https://dl.irupc.xyz/340887673281628/The.Walking.Dead.S09E16.480p.%5BMojoo.ir%5D.mkv";
-//
-s09e01y = "https://dl.irupc.xyz/340629975243868/the.walking.dead.s09e01.480p.web_dl.mkv"; s09e02y = "https://dl.irupc.xyz/340647155113052/the.walking.dead.s09e02.480p.hdtv.x264.rmteam.mkv"; s09e03y = "https://dl.irupc.xyz/340664334982236/the.walking.dead.s09e03.480p.hdtv.mkv"; s09e04y = "https://dl.irupc.xyz/340681514851420/the.walking.dead.s09e04.480p.hdtv.mkv"; s09e05y = "https://dl.irupc.xyz/340698694720604/the.walking.dead.s09e05.480p.web_dl.mkv"; s09e06y = "https://dl.irupc.xyz/340715874589788/the.walking.dead.s09e06.480p.hdtv.mkv"; s09e07y = "https://dl.irupc.xyz/340733054458972/the.walking.dead.s09e07.480p.hdtv.mkv"; s09e08y = "https://dl.irupc.xyz/340750234328156/the.walking.dead.s09e08.480p.hdtv.mkv"; s09e09y = "https://dl.irupc.xyz/340767414197340/The.Walking.Dead.S09E09.480p.WEB_DL.%5BMojoo.ir%5D.mkv"; s09e10y = "https://dl.irupc.xyz/340784594066524/The.Walking.Dead.S09E10.480p.HDTV.RMTeam%5BMojoo.ir%5D.mkv";
-s09e11y = "https://dl.irupc.xyz/382823733959772/The.Walking.Dead.S09E11.Bounty.720p.AMZN.WEB-DL.MkvCage.mkv"; s09e12y = "https://dl.irupc.xyz/340818953804892/The.Walking.Dead.S09E12.480p.WEB.RMT.%5BMojoo.ir%5D.mkv"; s09e13y = "https://dl.irupc.xyz/340836133674076/The.Walking.Dead.S09E13.480p.WEB.RMT.%5BMojoo.ir%5D.mkv"; s09e14y = "https://dl.irupc.xyz/340853313543260/the.walking.dead.s09e14.480p.hdtv.x264.rmteam.%5BMojoo.ir%5D.mkv"; s09e15y = "https://dl.irupc.xyz/340870493412444/The.Walking.Dead.S09E15.480p.HDTV.x264.%5BMojoo.ir%5D.mkv"; s09e16y = "https://dl.irupc.xyz/340887673281628/The.Walking.Dead.S09E16.480p.%5BMojoo.ir%5D.mkv";
+S04E01y = "https://dl.irupc.xyz/240007481433180/The.Walking.Dead.S04E01.720p.BluRay.x265-@iMediaShare.mkv";
+S04E02y = "https://dl.irupc.xyz/240024661302364/The.Walking.Dead.S04E02.720p.BluRay.x265-@iMediaShare.mkv";
+S04E03y = "https://dl.irupc.xyz/240041841171548/The.Walking.Dead.S04E03.720p.BluRay.x265-@iMediaShare.mkv";
+S04E04y = "https://dl.irupc.xyz/240059021040732/The.Walking.Dead.S04E04.720p.BluRay.x265-@iMediaShare.mkv";
+S04E05y = "https://dl.irupc.xyz/240076200909916/The.Walking.Dead.S04E05.720p.BluRay.x265-@iMediaShare.mkv";
+S04E06y = "https://dl.irupc.xyz/240093380779100/The.Walking.Dead.S04E06.720p.BluRay.x265-@iMediaShare.mkv";
+S04E07y = "https://dl.irupc.xyz/240110560648284/The.Walking.Dead.S04E07.720p.BluRay.x265-@iMediaShare.mkv";
+S04E08y = "https://dl.irupc.xyz/240127740517468/The.Walking.Dead.S04E08.720p.BluRay.x265-@iMediaShare.mkv";
+S04E09y = "https://dl.irupc.xyz/240144920386652/The.Walking.Dead.S04E09.720p.BluRay.x265-@iMediaShare.mkv";
+S04E10y = "https://dl.irupc.xyz/240162100255836/The.Walking.Dead.S04E10.720p.BluRay.x265-@iMediaShare.mkv";
+S04E11y = "https://dl.irupc.xyz/240179280125020/The.Walking.Dead.S04E11.720p.BluRay.x265-@iMediaShare.mkv";
+S04E12y = "https://dl.irupc.xyz/240196459994204/The.Walking.Dead.S04E12.720p.BluRay.x265-@iMediaShare.mkv";
+S04E13y = "https://dl.irupc.xyz/240213639863388/The.Walking.Dead.S04E13.720p.BluRay.x265-@iMediaShare.mkv";
+S04E14y = "https://dl.irupc.xyz/240230819732572/The.Walking.Dead.S04E14.720p.BluRay.x265-@iMediaShare.mkv";
+S04E15y = "https://dl.irupc.xyz/240247999601756/The.Walking.Dead.S04E15.720p.BluRay.x265-@iMediaShare.mkv";
+S04E16y = "https://dl.irupc.xyz/240265179470940/The.Walking.Dead.S04E16.720p.BluRay.x265-@iMediaShare.mkv";
+
+
+//Season 05 URL
+S05E01x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E01.720p.WEB-DL.2CH.x265-o.mkv";
+S05E02x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E02.720p.WEB-DL.2CH.x265-s.mkv";
+S05E03x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E03.720p.WEB-DL.2CH.x265-a.mkv";
+S05E04x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E04.720p.WEB-DL.2CH.x265-g.mkv";
+S05E05x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E05.720p.WEB-DL.2CH.x265-e.mkv";
+S05E06x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E06.720p.WEB-DL.2CH.x265-y.mkv";
+S05E07x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E07.720p.WEB-DL.2CH.x265-k.mkv";
+S05E08x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E08.720p.WEB-DL.2CH.x265-q.mkv";
+S05E09x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E09.720p.WEB-DL.2CH.x265-k.mkv";
+S05E10x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E10.720p.WEB-DL.2CH.x265-l.mkv";
+S05E11x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E11.720p.WEB-DL.2CH.x265-u.mkv";
+S05E12x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E12.720p.WEB-DL.2CH.x265-g.mkv";
+S05E13x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E13.720p.WEB-DL.2CH.x265-v.mkv";
+S05E14x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E14.720p.WEB-DL.2CH.x265-z.mkv";
+S05E15x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E15.720p.WEB-DL.2CH.x265-n.mkv";
+S05E16x = "https://series.irupc.xyz/0:/TV.Series/TWD/S05/iruPC.net_The.Walking.Dead.S05E16.720p.WEB-DL.2CH.x265-m.mkv";
+
+S05E01y = "https://dl.irupc.xyz/533645805526108/The.Walking.Dead.S05E01.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S05E02y = "https://dl.irupc.xyz/533662985395292/The.Walking.Dead.S05E02.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S05E03y = "https://dl.irupc.xyz/533680165264476/The.Walking.Dead.S05E03.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S05E04y = "https://dl.irupc.xyz/533697345133660/The.Walking.Dead.S05E04.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S05E05y = "https://dl.irupc.xyz/533714525002844/The.Walking.Dead.S05E05.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S05E06y = "https://dl.irupc.xyz/533731704872028/The.Walking.Dead.S05E06.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S05E07y = "https://dl.irupc.xyz/533748884741212/The.Walking.Dead.S05E07.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S05E08y = "https://dl.irupc.xyz/533766064610396/The.Walking.Dead.S05E08.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S05E09y = "https://dl.irupc.xyz/533783244479580/The.Walking.Dead.S05E09.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S05E10y = "https://dl.irupc.xyz/533800424348764/The.Walking.Dead.S05E10.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S05E11y = "https://dl.irupc.xyz/533817604217948/The.Walking.Dead.S05E11.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S05E12y = "https://dl.irupc.xyz/533834784087132/The.Walking.Dead.S05E12.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S05E13y = "https://dl.irupc.xyz/533851963956316/The.Walking.Dead.S05E13.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S05E14y = "https://dl.irupc.xyz/533869143825500/The.Walking.Dead.S05E14.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S05E15y = "https://dl.irupc.xyz/533886323694684/The.Walking.Dead.S05E15.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S05E16y = "https://dl.irupc.xyz/533903503563868/The.Walking.Dead.S05E16.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+
+
+//Season 06 URL
+S06E01x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E01.First.Time.Again.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S06E02x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E02.Just.Survive.Somehow.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S06E03x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E03.Thank.You.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S06E04x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E04.Here's.Not.Here.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S06E05x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E05.Now.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S06E06x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E06.Always.Accountable.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S06E07x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E07.Heads%20Up.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S06E08x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E08.Start%20to%20Finish.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S06E09x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E09.No.Way.Out.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S06E10x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E10.The.Next.World.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S06E11x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E11.Knots.Untie.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S06E12x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E12.Not.Tomorrow.Yet.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S06E13x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E13.The.Same.Boat.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S06E14x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E14.Twice.As.Far.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S06E15x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E15.East.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S06E16x = "https://series.irupc.xyz/0:/TV.Series/TWD/S06/iruPC.net_The.Walking.Dead.S06E16.Last.Day.on.Earth.720p.WEB-DL.2CH.x265.HEVC.mkv";
+
+S06E01y = "https://dl.irupc.xyz/534195561339996/The_Walking_Dead_S06E01_First_Time_Again_720p_WEB_DL_2CH_x265_HEVC.mkv";
+S06E02y = "https://dl.irupc.xyz/534212741209180/The_Walking_Dead_S06E02_Just_Survive_Somehow_720p_WEB_DL_2CH_x265.mkv";
+S06E03y = "https://dl.irupc.xyz/534229921078364/The_Walking_Dead_S06E03_Thank_You_720p_WEB_DL_2CH_x265_HEVC_PSA.mkv";
+S06E04y = "https://dl.irupc.xyz/534247100947548/The_Walking_Dead_S06E04_Here's_Not_Here_720p_WEB_DL_2CH_x265_HEVC.mkv";
+S06E05y = "https://dl.irupc.xyz/534264280816732/The.Walking.Dead.S06E05.Now.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S06E06y = "https://dl.irupc.xyz/534281460685916/The_Walking_Dead_S06E06_Always_Accountable_720p_WEB_DL_2CH_x265.mkv";
+S06E07y = "https://dl.irupc.xyz/534298640555100/The_Walking_Dead_S06E07_Heads_Up_720p_WEB_DL_2CH_x265_HEVC_PSA.mkv";
+S06E08y = "https://dl.irupc.xyz/534315820424284/The_Walking_Dead_S06E08_Start_to_Finish_720p_WEB_DL_2CH_x265_HEVC.mkv";
+S06E09y = "https://dl.irupc.xyz/534333000293468/The_Walking_Dead_S06E09_No_Way_Out_720p_WEB_DL_2CH_x265_HEVC_PSA.mkv";
+S06E10y = "https://dl.irupc.xyz/534350180162652/The_Walking_Dead_S06E10_The_Next_World_720p_WEB_DL_2CH_x265_HEVC.mkv";
+S06E11y = "https://dl.irupc.xyz/534367360031836/The_Walking_Dead_S06E11_Knots_Untie_720p_WEB_DL_2CH_x265_HEVC_PSA.mkv";
+S06E12y = "https://dl.irupc.xyz/534384539901020/The_Walking_Dead_S06E12_Not_Tomorrow_Yet_720p_WEB_DL_2CH_x265_HEVC.mkv";
+S06E13y = "https://dl.irupc.xyz/534401719770204/The_Walking_Dead_S06E13_The_Same_Boat_720p_WEB_DL_2CH_x265_HEVC.mkv";
+S06E14y = "https://dl.irupc.xyz/534418899639388/The_Walking_Dead_S06E14_Twice_as_Far_720p_WEB_DL_2CH_x265_HEVC_PSA.mkv";
+S06E15y = "https://dl.irupc.xyz/534436079508572/The.Walking.Dead.S06E15.East.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S06E16y = "https://dl.irupc.xyz/534453259377756/The_Walking_Dead_S06E16_Last_Day_on_Earth_720p_WEB_DL_2CH_x265_HEVC.mkv";
+
+
+//Season 07 URL
+S07E01x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E01.The.Day.Will.Come.When.You.Won't.Be.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S07E02x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E02.The.Well.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S07E03x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E03.The.Cell.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S07E04x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E04.Service.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S07E05x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E05.Go.Getters.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S07E06x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E06.Swear.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S07E07x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E07.Sing.Me.a.Song.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S07E08x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E08.Hearts.Still.Beating.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S07E09x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E09.Rock.in.the.Road.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S07E10x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E10.New.Best.Friends.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S07E11x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E11.Hostiles.and.Calamities.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S07E12x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E12.Say.Yes.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S07E13x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E13.Bury.Me.Here.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S07E14x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E14.The.Other.Side.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S07E15x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E15.Something.They.Need.720p.WEB-DL.2CH.x265.HEVC.mkv";
+S07E16x = "https://series.irupc.xyz/0:/TV.Series/TWD/S07/iruPC.net_The.Walking.Dead.S07E16.The.First.Day.of.the.Rest.of.Your.Life.720p.WEB-DL.2CH.x265.HEVC.mkv";
+
+S07E01y = "https://dl.irupc.xyz/534745317153884/The_Walking_Dead_S07E01_The_Day_Will_Come_When_You_Won't_Be_720p.mkv";
+S07E02y = "https://dl.irupc.xyz/534762497023068/The_Walking_Dead_S07E02_The_Well_720p_WEB_DL_2CH_x265_HEVC_PSA.mkv";
+S07E03y = "https://dl.irupc.xyz/534779676892252/The_Walking_Dead_S07E03_The_Cell_720p_WEB_DL_2CH_x265_HEVC_PSA.mkv";
+S07E04y = "https://dl.irupc.xyz/534796856761436/The_Walking_Dead_S07E04_Service_720p_WEB_DL_2CH_x265_HEVC_PSA.mkv";
+S07E05y = "https://dl.irupc.xyz/534814036630620/The_Walking_Dead_S07E05_Go_Getters_720p_WEB_DL_2CH_x265_HEVC_PSA.mkv";
+S07E06y = "https://dl.irupc.xyz/534831216499804/The.Walking.Dead.S07E06.Swear.720p.WEB-DL.2CH.x265.HEVC-PSA.mkv";
+S07E07y = "https://dl.irupc.xyz/534848396368988/The_Walking_Dead_S07E07_Sing_Me_a_Song_720p_WEB_DL_2CH_x265_HEVC.mkv";
+S07E08y = "https://dl.irupc.xyz/534865576238172/The_Walking_Dead_S07E08_Hearts_Still_Beating_720p_WEB_DL_2CH_x265.mkv";
+S07E09y = "https://dl.irupc.xyz/534882756107356/The_Walking_Dead_S07E09_Rock_in_the_Road_720p_WEB_DL_2CH_x265_HEVC.mkv";
+S07E10y = "https://dl.irupc.xyz/534899935976540/The_Walking_Dead_S07E10_New_Best_Friends_720p_WEB_DL_2CH_x265_HEVC.mkv";
+S07E11y = "https://dl.irupc.xyz/534917115845724/The_Walking_Dead_S07E11_Hostiles_and_Calamities_720p_WEB_DL_2CH.mkv";
+S07E12y = "https://dl.irupc.xyz/534934295714908/The_Walking_Dead_S07E12_Say_Yes_720p_WEB_DL_2CH_x265_HEVC_PSA.mkv";
+S07E13y = "https://dl.irupc.xyz/534951475584092/The_Walking_Dead_S07E13_Bury_Me_Here_720p_WEB_DL_2CH_x265_HEVC_PSA.mkv";
+S07E14y = "https://dl.irupc.xyz/534968655453276/The_Walking_Dead_S07E14_The_Other_Side_720p_WEB_DL_2CH_x265_HEVC.mkv";
+S07E15y = "https://dl.irupc.xyz/534985835322460/The_Walking_Dead_S07E15_Something_They_Need_720p_WEB_DL_2CH_x265.mkv";
+S07E16y = "https://dl.irupc.xyz/535003015191644/The_Walking_Dead_S07E16_The_First_Day_of_the_Rest_of_Your_Life_720p.mkv";
+
+
+//Season 08 URL
+S08E01x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E01.Mercy.720p.WEBRip.2CH.x265.HEVC.mkv";
+S08E02x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E02.The.Damned.720p.WEBRip.2CH.x265.HEVC.mkv";
+S08E03x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E03.Monsters.720p.WEBRip.2CH.x265.HEVC.mkv";
+S08E04x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E04.Some.Guy.720p.WEBRip.2CH.x265.HEVC.mkv";
+S08E05x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E05.The.Big.Scary.U.720p.WEBRip.2CH.x265.HEVC.mkv";
+S08E06x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E06.The.King.the.Widow.and.Rick.720p.WEBRip.2CH.x265.HEVC.mkv";
+S08E07x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E07.Time.for.After.720p.WEBRip.2CH.x265.HEVC.mkv";
+S08E08x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E08.How.It's.Gotta.Be.720p.WEBRip.2CH.x265.HEVC.mkv";
+S08E09x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E09.Honor.720p.WEBRip.2CH.x265.HEVC.mkv";
+S08E10x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E10.The.Lost.and.the.Plunderers.720p.WEBRip.2CH.x265.HEVC.mkv";
+S08E11x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E11.Dead.or.Alive.Or.720p.WEBRip.2CH.x265.HEVC.mkv";
+S08E12x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E12.The.Key.720p.WEBRip.2CH.x265.HEVC.mkv";
+S08E13x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E13.Do.Not.Send.Us.Astray.720p.WEBRip.2CH.x265.HEVC.mkv";
+S08E14x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E14.Still.Gotta.Mean.Something.720p.WEBRip.2CH.x265.HEVC.mkv";
+S08E15x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E15.Worth.720p.WEBRip.2CH.x265.HEVC.mkv";
+S08E16x = "https://series.irupc.xyz/0:/TV.Series/TWD/S08/iruPC.net_The.Walking.Dead.S08E16.Wrath.720p.WEBRip.2CH.x265.HEVC.mkv";
+
+S08E01y = "https://dl.irupc.xyz/535295072967772/The.Walking.Dead.S08E01.Mercy.720p.WEBRip.2CH.x265.HEVC-PSA.mkv";
+S08E02y = "https://dl.irupc.xyz/535312252836956/The_Walking_Dead_S08E02_The_Damned_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S08E03y = "https://dl.irupc.xyz/535329432706140/The_Walking_Dead_S08E03_Monsters_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S08E04y = "https://dl.irupc.xyz/535346612575324/The_Walking_Dead_S08E04_Some_Guy_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S08E05y = "https://dl.irupc.xyz/535363792444508/The_Walking_Dead_S08E05_The_Big_Scary_U_720p_WEBRip_2CH_x265_HEVC.mkv";
+S08E06y = "https://dl.irupc.xyz/535380972313692/The_Walking_Dead_S08E06_The_King_the_Widow_and_Rick_720p_WEBRip.mkv";
+S08E07y = "https://dl.irupc.xyz/535398152182876/The_Walking_Dead_S08E07_Time_for_After_720p_WEBRip_2CH_x265_HEVC.mkv";
+S08E08y = "https://dl.irupc.xyz/535415332052060/The_Walking_Dead_S08E08_How_It's_Gotta_Be_720p_WEBRip_2CH_x265_HEVC.mkv";
+S08E09y = "https://dl.irupc.xyz/535432511921244/The.Walking.Dead.S08E09.Honor.720p.WEBRip.2CH.x265.HEVC-PSA.mkv";
+S08E10y = "https://dl.irupc.xyz/535449691790428/The_Walking_Dead_S08E10_The_Lost_and_the_Plunderers_720p_WEBRip.mkv";
+S08E11y = "https://dl.irupc.xyz/535466871659612/The_Walking_Dead_S08E11_Dead_or_Alive_Or_720p_WEBRip_2CH_x265_HEVC.mkv";
+S08E12y = "https://dl.irupc.xyz/535484051528796/The_Walking_Dead_S08E12_The_Key_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S08E13y = "https://dl.irupc.xyz/535501231397980/The_Walking_Dead_S08E13_Do_Not_Send_Us_Astray_720p_WEBRip_2CH_x265.mkv";
+S08E14y = "https://dl.irupc.xyz/535518411267164/The_Walking_Dead_S08E14_Still_Gotta_Mean_Something_720p_WEBRip_2CH.mkv";
+S08E15y = "https://dl.irupc.xyz/535535591136348/The.Walking.Dead.S08E15.Worth.720p.WEBRip.2CH.x265.HEVC-PSA.mkv";
+S08E16y = "https://dl.irupc.xyz/535552771005532/The.Walking.Dead.S08E16.Wrath.720p.WEBRip.2CH.x265.HEVC-PSA.mkv";
+
+
+//Season 09 URL
+S09E01x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E01.A.New.Beginning.720p.WEBRip.2CH.x265.HEVC.mkv";
+S09E02x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E02.The.Bridge.720p.WEBRip.2CH.x265.HEVC.mkv";
+S09E03x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E03.Warning.Signs.720p.WEBRip.2CH.x265.HEVC.mkv";
+S09E04x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E04.The.Obliged.720p.WEBRip.2CH.x265.HEVC.mkv";
+S09E05x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E05.What.Comes.After.720p.WEBRip.2CH.x265.HEVC.mkv";
+S09E06x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E06.Who.Are.You.Now.720p.WEBRip.2CH.x265.HEVC.mkv";
+S09E07x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E07.Stradivarius.720p.WEBRip.2CH.x265.HEVC.mkv";
+S09E08x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E08.Evolution.720p.WEBRip.2CH.x265.HEVC.mkv";
+S09E09x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E09.Adaptation.720p.WEBRip.2CH.x265.HEVC.mkv";
+S09E10x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E10.Omega.720p.WEBRip.2CH.x265.HEVC.mkv";
+S09E11x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E11.Bounty.720p.WEBRip.2CH.x265.HEVC.mkv";
+S09E12x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E12.Guardians.REPACK.720p.WEBRip.2CH.x265.HEVC.mkv";
+S09E13x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E13.Chokepoint.REPACK.720p.WEBRip.2CH.x265.HEVC.mkv";
+S09E14x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E14.Scars.720p.WEBRip.2CH.x265.HEVC.mkv";
+S09E15x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E15.The.Calm.Before.720p.WEBRip.2CH.x265.HEVC.mkv";
+S09E16x = "https://series.irupc.xyz/0:/TV.Series/TWD/S09/iruPC.net_The.Walking.Dead.S09E16.The.Storm.720p.WEBRip.2CH.x265.HEVC.mkv";
+
+S09E01y = "https://dl.irupc.xyz/535844828781660/The_Walking_Dead_S09E01_A_New_Beginning_720p_WEBRip_2CH_x265_HEVC.mkv";
+S09E02y = "https://dl.irupc.xyz/535862008650844/The_Walking_Dead_S09E02_The_Bridge_REPACK_720p_WEBRip_2CH_x265_HEVC.mkv";
+S09E03y = "https://dl.irupc.xyz/535879188520028/The_Walking_Dead_S09E03_Warning_Signs_720p_WEBRip_2CH_x265_HEVC.mkv";
+S09E04y = "https://dl.irupc.xyz/535896368389212/The_Walking_Dead_S09E04_The_Obliged_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S09E05y = "https://dl.irupc.xyz/535913548258396/The_Walking_Dead_S09E05_What_Comes_After_720p_WEBRip_2CH_x265_HEVC.mkv";
+S09E06y = "https://dl.irupc.xyz/535930728127580/The_Walking_Dead_S09E06_Who_Are_You_Now_720p_WEBRip_2CH_x265_HEVC.mkv";
+S09E07y = "https://dl.irupc.xyz/535947907996764/The_Walking_Dead_S09E07_Stradivarius_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S09E08y = "https://dl.irupc.xyz/535965087865948/The_Walking_Dead_S09E08_Evolution_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S09E09y = "https://dl.irupc.xyz/535982267735132/The_Walking_Dead_S09E09_Adaptation_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S09E10y = "https://dl.irupc.xyz/535999447604316/The.Walking.Dead.S09E10.Omega.720p.WEBRip.2CH.x265.HEVC-PSA.mkv";
+S09E11y = "https://dl.irupc.xyz/536016627473500/The.Walking.Dead.S09E11.Bounty.720p.WEBRip.2CH.x265.HEVC-PSA.mkv";
+S09E12y = "https://dl.irupc.xyz/536033807342684/The_Walking_Dead_S09E12_Guardians_REPACK_720p_WEBRip_2CH_x265_HEVC.mkv";
+S09E13y = "https://dl.irupc.xyz/536050987211868/The_Walking_Dead_S09E13_Chokepoint_REPACK_720p_WEBRip_2CH_x265_HEVC.mkv";
+S09E14y = "https://dl.irupc.xyz/536068167081052/The.Walking.Dead.S09E14.Scars.720p.WEBRip.2CH.x265.HEVC-PSA.mkv";
+S09E15y = "https://dl.irupc.xyz/536085346950236/The_Walking_Dead_S09E15_The_Calm_Before_720p_WEBRip_2CH_x265_HEVC.mkv";
+S09E16y = "https://dl.irupc.xyz/536102526819420/The_Walking_Dead_S09E16_The_Storm_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+
 
 //Season 10 URL
-s10e01x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S10/The.Walking.Dead_IruPC.net_S10E01.720p.AMZN.WEBRip.x264.mkv"; s10e02x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S10/The.Walking.Dead_IruPC.net_S10E02.720p.AMZN.WEBRip.x264-s.mkv"; s10e03x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S10/The.Walking.Dead_IruPC.net_S10E03.720p.AMZN.WEBRip.x264-c.mkv"; s10e04x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S10/The.Walking.Dead_IruPC.net_S10E04.720p.AMZN.WEBRip.x264-sa.mkv"; s10e05x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S10/The.Walking.Dead_IruPC.net_S10E05.720p.AMZN.WEBRip.x264-g.mkv"; s10e06x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S10/The.Walking.Dead_IruPC.net_S10E06.720p.AMZN.WEBRip.x264-h.mkv"; s10e07x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S10/The.Walking.Dead_IruPC.net_S10E07.720p.AMZN.WEBRip.x264-z.mkv"; s10e08x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S10/The.Walking.Dead_IruPC.net_S10E08.720p.AMZN.WEBRip.x264-q.mkv"; s10e09x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S10/The.Walking.Dead_IruPC.net_S10E09.720p.AMZN.WEBRip.x264-s.mkv"; s10e10x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S10/The.Walking.Dead_IruPC.net_S10E10.720p.AMZN.WEBRip.x264-a.mkv";
-s10e11x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S10/The.Walking.Dead_IruPC.net_S10E11.720p.AMZN.WEBRip.x264-h.mkv"; s10e12x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S10/The.Walking.Dead_IruPC.net_S10E12.720p.AMZN.WEBRip.x264-d.mkv"; s10e13x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S10/The.Walking.Dead_IruPC.net_S10E13.720p.AMZN.WEBRip.x264-g.mkv"; s10e14x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S10/The.Walking.Dead_IruPC.net_S10E14.720p.AMZN.WEBRip.x264-xa.mkv"; s10e15x = "https://download.irupc.xyz/0:/TV.Shows/The.Walking.Dead/S10/The.Walking.Dead_IruPC.net_S10E15.720p.AMZN.WEBRip.x264-k.mkv";
-//
-s10e01y = "https://irupc-net.herokuapp.com/66611061759068/The.Walking.Dead.S10E01.Web.@intermedia.mkv"; s10e02y = "https://irupc-net.herokuapp.com/66628241628252/The.Walking.Dead.S10E02.Web.@intermedia.mkv"; s10e03y = "https://irupc-net.herokuapp.com/66662601366620/The.Walking.Dead.S10E03.Web.@intermedia.mkv"; s10e04y = "https://irupc-net.herokuapp.com/66645421497436/The.Walking.Dead.S10E04.Web.@intermedia.mkv"; s10e05y = "https://irupc-net.herokuapp.com/66679781235804/The.Walking.Dead.S10E05.Web.@intermedia.mkv"; s10e06y = "https://irupc-net.herokuapp.com/66696961104988/The.Walking.Dead.S10E06.Web.@intermedia.mkv"; s10e07y = "https://irupc-net.herokuapp.com/66714140974172/The.Walking.Dead.S10E07.Web.@intermedia.mkv"; s10e08y = "https://irupc-net.herokuapp.com/66731320843356/The.Walking.Dead.S10E08.Web.@intermedia.mkv"; s10e09y = "https://irupc-net.herokuapp.com/67092098096220/The.Walking.Dead.S10E09.REPACK.Web.@intermedia.mkv"; s10e10y = "https://irupc-net.herokuapp.com/67109277965404/The.Walking.Dead.S10E10.Web.@intermedia.mkv";
-s10e11y = "https://irupc-net.herokuapp.com/67074918227036/The.Walking.Dead.S10E11.Web.@intermedia.mkv"; s10e12y = "https://irupc-net.herokuapp.com/67057738357852/The.Walking.Dead.S10E12.Web.@intermedia.mkv"; s10e13y = "https://irupc-net.herokuapp.com/66748500712540/The.Walking.Dead.S10E13.Web.@intermedia.mkv"; s10e14y = "https://irupc-net.herokuapp.com/67126457834588/The.Walking.Dead.S10E14.Web.@intermedia.mkv"; s10e15y = "https://irupc-net.herokuapp.com/67143637703772/The.Walking.Dead.S10E15.Web.@intermedia.mkv";
+S10E01x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E01.Lines.We.Cross.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E02x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E02.We.Are.the.End.of.the.World.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E03x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E03.Ghosts.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E04x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E04.Silence.the.Whisperers.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E05x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E05.What.It.Always.Is.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E06x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E06.Bonds.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E07x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E07.Open.Your.Eyes.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E08x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E08.The.World.Before.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E09x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E09.Squeeze.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E10x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E10.Stalker.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E11x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E11.Morning.Star.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E12x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E12.Walk.With.Us.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E13x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E13.What.We.Become.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E14x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E14.Look.at.the.Flowers.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E15x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E15.The.Tower.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E16x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E16.A.Certain.Doom.720p.WEBRip.2CH.x265.HEVC.mkv";
+S10E17x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E17.720p.WEBRip.2CH.x265.HEVC-i.mkv";
+S10E18x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E18.720p.WEBRip.2CH.x265.HEVC-a.mkv";
+S10E19x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E19.720p.WEBRip.2CH.x265.HEVC-r.mkv";
+S10E20x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E20.720p.WEBRip.2CH.x265.HEVC-q.mkv";
+S10E21x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E21.720p.WEBRip.2CH.x265.HEVC-d.mkv";
+S10E22x = "https://series.irupc.xyz/0:/TV.Series/TWD/S10/iruPC.net_The.Walking.Dead.S10E22.Heres.Negan.720p.WEBRip.2CH.x265.HEVC-s.mkv";
+
+S10E01y = "https://dl.irupc.xyz/536394584595548/The_Walking_Dead_S10E01_Lines_We_Cross_720p_WEBRip_2CH_x265_HEVC.mkv";
+S10E02y = "https://dl.irupc.xyz/536411764464732/The_Walking_Dead_S10E02_We_Are_The_End_Of_The_World_720p_WEBRip.mkv";
+S10E03y = "https://dl.irupc.xyz/536428944333916/The.Walking.Dead.S10E03.Ghosts.720p.WEBRip.2CH.x265.HEVC-PSA.mkv";
+S10E04y = "https://dl.irupc.xyz/536446124203100/The_Walking_Dead_S10E04_Silence_The_Whisperers_720p_WEBRip_2CH_x265.mkv";
+S10E05y = "https://dl.irupc.xyz/536463304072284/The_Walking_Dead_S10E05_What_It_Always_Is_720p_WEBRip_2CH_x265_HEVC.mkv";
+S10E06y = "https://dl.irupc.xyz/536480483941468/The.Walking.Dead.S10E06.Bonds.720p.WEBRip.2CH.x265.HEVC-PSA.mkv";
+S10E07y = "https://dl.irupc.xyz/536497663810652/The_Walking_Dead_S10E07_Open_Your_Eyes_720p_WEBRip_2CH_x265_HEVC.mkv";
+S10E08y = "https://dl.irupc.xyz/536514843679836/The_Walking_Dead_S10E08_The_World_Before_720p_WEBRip_2CH_x265_HEVC.mkv";
+S10E09y = "https://dl.irupc.xyz/536532023549020/The_Walking_Dead_S10E09_Squeeze_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S10E10y = "https://dl.irupc.xyz/536549203418204/The_Walking_Dead_S10E10_Stalker_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S10E11y = "https://dl.irupc.xyz/536566383287388/The_Walking_Dead_S10E11_Morning_Star_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S10E12y = "https://dl.irupc.xyz/536583563156572/The_Walking_Dead_S10E12_Walk_with_Us_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S10E13y = "https://dl.irupc.xyz/536600743025756/The_Walking_Dead_S10E13_What_We_Become_720p_WEBRip_2CH_x265_HEVC.mkv";
+S10E14y = "https://dl.irupc.xyz/536617922894940/The_Walking_Dead_S10E14_Look_at_the_Flowers_720p_WEBRip_2CH_x265.mkv";
+S10E15y = "https://dl.irupc.xyz/536635102764124/The_Walking_Dead_S10E15_The_Tower_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S10E16y = "https://dl.irupc.xyz/536652282633308/The_Walking_Dead_S10E16_A_Certain_Doom_720p_WEBRip_2CH_x265_HEVC.mkv";
+S10E17y = "https://dl.irupc.xyz/536669462502492/The_Walking_Dead_S10E17_Home_Sweet_Home_720p_WEBRip_2CH_x265_HEVC.mkv";
+S10E18y = "https://dl.irupc.xyz/536686642371676/The_Walking_Dead_S10E18_Find_Me_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S10E19y = "https://dl.irupc.xyz/536703822240860/The_Walking_Dead_S10E19_One_More_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S10E20y = "https://dl.irupc.xyz/536721002110044/The_Walking_Dead_S10E20_Splinter_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S10E21y = "https://dl.irupc.xyz/536738181979228/The_Walking_Dead_S10E21_Diverged_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
+S10E22y = "https://dl.irupc.xyz/536755361848412/The_Walking_Dead_S10E22_Heres_Negan_720p_WEBRip_2CH_x265_HEVC_PSA.mkv";
