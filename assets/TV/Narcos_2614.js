@@ -1,19 +1,73 @@
-lastRes = "720p"; lastSize = "300MB"; lastRip = "WebRip"; lastMsg1 = "Warning! This is x265 (HEVC) Codec"; lastMsg2 = "Some <b>Televisions</b> may not be able to play this video";
-s01Res = "720p"; s01Size = "~220MB"; s01Rip = "WebRip"; s01Msg1 = "Warning! This is x265 (HEVC) Codec"; s01Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s02Res = "720p"; s02Size = "~250MB"; s02Rip = "WebRip"; s02Msg1 = "Warning! This is x265 (HEVC) Codec"; s02Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s03Res = "720p"; s03Size = "~220MB"; s03Rip = "WebRip"; s03Msg1 = "Warning! This is x265 (HEVC) Codec"; s03Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+lastRes = "720p"; lastSize = "266MB"; lastRip = "BluRay"; lastMsg1 = "Warning! This is x265 (10-bit) Codec"; lastMsg2 = "Some <b>Televisions</b> may not be able to play this video";
+s01Res = "720p"; s01Size = "~270MB"; s01Rip = "BluRay"; s01Msg1 = "Warning! This is x265 (10-bit) Codec"; s01Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+s02Res = "720p"; s02Size = "~275MB"; s02Rip = "BluRay"; s02Msg1 = "Warning! This is x265 (10-bit) Codec"; s02Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+s03Res = "720p"; s03Size = "~300MB"; s03Rip = "BluRay"; s03Msg1 = "Warning! This is x265 (10-bit) Codec"; s03Msg2 = "Some <b>Televisions</b> may not be able to play this video";
 
-//Season 1 URL
-s01e01x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S01/www.irupc.net__dNarcos_IruPC.net_S01E01.WEBRip.720p.x265.AAC.mkv"; s01e02x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S01/www.irupc.net__rNarcos_IruPC.net_S01E02.WEBRip.720p.x265.AAC.mkv"; s01e03x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S01/Narcos_IruPC.net_S01E03.WEBRip.720p.x265.AAC.mkv"; s01e04x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S01/gNarcos_IruPC.net_S01E04.WEBRip.720p.x265.AAC.mkv"; s01e05x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S01/www.irupc.net__rNarcos_IruPC.net_S01E05.WEBRip.720p.x265.AAC.mkv"; s01e06x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S01/eNarcos_IruPC.net_S01E06.WEBRip.720p.x265.AAC.mkv"; s01e07x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S01/www.irupc.net__Narcos.S01E07.720p.WEBRiP.x265hg.mkv"; s01e08x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S01/gNarcos_IruPC.net_S01E08.WEBRip.720p.x265.AAC.mkv"; s01e09x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S01/kNarcos_IruPC.net_S01E09.WEBRip.720p.x265.AAC.mkv"; s01e10x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S01/tNarcos_IruPC.net_S01E10.WEBRip.720p.x265.AAC.mkv";
-//
-s01e01y = "https://irupc-net.herokuapp.com/49379652967516/Narcos.S01E01.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s01e02y = "https://irupc-net.herokuapp.com/49396832836700/Narcos.S01E02.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s01e03y = "https://irupc-net.herokuapp.com/49414012705884/Narcos.S01E03.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s01e04y = "https://irupc-net.herokuapp.com/49431192575068/Narcos.S01E04.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s01e05y = "https://irupc-net.herokuapp.com/49448372444252/Narcos.S01E05.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s01e06y = "https://irupc-net.herokuapp.com/49465552313436/Narcos.S01E06.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s01e07y = "https://irupc-net.herokuapp.com/49482732182620/Narcos.S01E07.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s01e08y = "https://irupc-net.herokuapp.com/49499912051804/Narcos.S01E08.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s01e09y = "https://irupc-net.herokuapp.com/49517091920988/Narcos.S01E09.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s01e10y = "https://irupc-net.herokuapp.com/49534271790172/Narcos.S01E10.720p.WEBRiP.x265-%5BSMTv%5D.mkv";
+//Season 01 URL
+s01e01x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S01/iruPC.net_Narcos.S01E01.720p.BluRay.x265.10Bit-h.mkv";
+s01e02x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S01/iruPC.net_Narcos.S01E02.720p.BluRay.x265.10Bit-e.mkv";
+s01e03x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S01/iruPC.net_Narcos.S01E03.720p.BluRay.x265.10Bit-a.mkv";
+s01e04x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S01/iruPC.net_Narcos.S01E04.720p.BluRay.x265.10Bit-y.mkv";
+s01e05x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S01/iruPC.net_Narcos.S01E05.720p.BluRay.x265.10Bit-q.mkv";
+s01e06x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S01/iruPC.net_Narcos.S01E06.720p.BluRay.x265.10Bit-j.mkv";
+s01e07x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S01/iruPC.net_Narcos.S01E07.720p.BluRay.x265.10Bit-o.mkv";
+s01e08x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S01/iruPC.net_Narcos.S01E08.720p.BluRay.x265.10Bit-p.mkv";
+s01e09x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S01/iruPC.net_Narcos.S01E09.720p.BluRay.x265.10Bit-m.mkv";
+s01e10x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S01/iruPC.net_Narcos.S01E10.720p.BluRay.x265.10Bit-c.mkv";
 
-//Season 2 URL
-s02e01x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S02/www.irupc.net__Narcos.S02E01.720p.WEBRiP.x265.mkv"; s02e02x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S02/www.irupc.net__oNarcos.S02E02.720p.WEBRiP.x265.mkv"; s02e03x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S02/www.irupc.net__kNarcos.S02E03.720p.WEBRiP.x265.mkv"; s02e04x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S02/www.irupc.net__uhNarcos.S02E04.720p.WEBRiP.x265.mkv"; s02e05x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S02/www.irupc.net__oNarcos.S02E05.720p.WEBRiP.x265.mkv"; s02e06x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S02/www.irupc.net__pNarcos.S02E06.720p.WEBRiP.x265.mkv"; s02e07x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S02/www.irupc.net__oNarcos.S02E07.PROPER.720p.WEBRiP.x265.mkv"; s02e08x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S02/www.irupc.net__plNarcos.S02E08.720p.WEBRiP.x265.mkv"; s02e09x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S02/www.irupc.net__kNarcos.S02E09.720p.WEBRiP.x265.mkv"; s02e10x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S02/www.irupc.net__vNarcos.S02E10.720p.WEBRiP.x265.mkv";
-//
-s02e01y = "https://irupc-net.herokuapp.com/49723250351196/Narcos.S02E01.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s02e02y = "https://irupc-net.herokuapp.com/49740430220380/Narcos.S02E02.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s02e03y = "https://irupc-net.herokuapp.com/49757610089564/Narcos.S02E03.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s02e04y = "https://irupc-net.herokuapp.com/49774789958748/Narcos.S02E04.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s02e05y = "https://irupc-net.herokuapp.com/49791969827932/Narcos.S02E05.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s02e06y = "https://irupc-net.herokuapp.com/49809149697116/Narcos.S02E06.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s02e07y = "https://irupc-net.herokuapp.com/49826329566300/Narcos.S02E07.PROPER.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s02e08y = "https://irupc-net.herokuapp.com/49843509435484/Narcos.S02E08.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s02e09y = "https://irupc-net.herokuapp.com/49860689304668/Narcos.S02E09.720p.WEBRiP.x265-%5BSMTv%5D.mkv"; s02e10y = "https://irupc-net.herokuapp.com/49877869173852/Narcos.S02E10.720p.WEBRiP.x265-%5BSMTv%5D.mkv";
+s01e01y = "https://dl.irupc.xyz/539899277909084/Narcos.S01E01.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s01e02y = "https://dl.irupc.xyz/539916457778268/Narcos.S01E02.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s01e03y = "https://dl.irupc.xyz/539933637647452/Narcos.S01E03.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s01e04y = "https://dl.irupc.xyz/539950817516636/Narcos.S01E04.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s01e05y = "https://dl.irupc.xyz/539967997385820/Narcos.S01E05.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s01e06y = "https://dl.irupc.xyz/539985177255004/Narcos.S01E06.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s01e07y = "https://dl.irupc.xyz/540002357124188/Narcos.S01E07.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s01e08y = "https://dl.irupc.xyz/540019536993372/Narcos.S01E08.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s01e09y = "https://dl.irupc.xyz/540071076600924/Narcos.S01E09.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s01e10y = "https://dl.irupc.xyz/540105436339292/Narcos.S01E10.720p.BluRay.x265.10Bit-Pahe.in.mkv";
 
-//Season 3 URL
-s03e01x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S03/www.irupc.net__dNarcos.S03E01.720p.10bit.WEBRip.2CH.x265.mkv"; s03e02x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S03/www.irupc.net__fNarcos.S03E02.720p.10bit.WEBRip.2CH.x265.mkv"; s03e03x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S03/www.irupc.net__hNarcos.S03E03.720p.10bit.WEBRip.2CH.x265.mkv"; s03e04x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S03/www.irupc.net__d3Narcos.S03E04.720p.10bit.WEBRip.2CH.x265.mkv"; s03e05x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S03/www.irupc.net__reNarcos.S03E05.720p.10bit.WEBRip.2CH.x265.mkv"; s03e06x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S03/www.irupc.net__uNarcos.S03E06.720p.10bit.WEBRip.2CH.x265.mkv"; s03e07x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S03/www.irupc.net__eNarcos.S03E07.720p.10bit.WEBRip.2CH.x265.mkv"; s03e08x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S03/www.irupc.net__oNarcos.S03E08.720p.10bit.WEBRip.2CH.x265.mkv"; s03e09x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S03/www.irupc.net__dNarcos.S03E09.720p.10bit.WEBRip.2CH.x265.mkv"; s03e10x = "https://download.irupc.xyz/0:/TV.Shows/Narcos/S03/www.irupc.net__dNarcos.S03E10.720p.10bit.WEBRip.2CH.x265.mkv";
-//  
-s03e01y = "https://irupc-net.herokuapp.com/50066847734876/Narcos.S03E01.720p.10bit.WEBRip.2CH.x265-%5BSMTv%5D.mkv"; s03e02y = "https://irupc-net.herokuapp.com/50084027604060/Narcos.S03E02.720p.10bit.WEBRip.2CH.x265-%5BSMTv%5D.mkv"; s03e03y = "https://irupc-net.herokuapp.com/50101207473244/Narcos.S03E03.720p.10bit.WEBRip.2CH.x265-%5BSMTv%5D.mkv"; s03e04y = "https://irupc-net.herokuapp.com/50118387342428/Narcos.S03E04.720p.10bit.WEBRip.2CH.x265-%5BSMTv%5D.mkv"; s03e05y = "https://irupc-net.herokuapp.com/50135567211612/Narcos.S03E05.720p.10bit.WEBRip.2CH.x265-%5BSMTv%5D.mkv"; s03e06y = "https://irupc-net.herokuapp.com/50152747080796/Narcos.S03E06.720p.10bit.WEBRip.2CH.x265-%5BSMTv%5D.mkv"; s03e07y = "https://irupc-net.herokuapp.com/50169926949980/Narcos.S03E07.720p.10bit.WEBRip.2CH.x265-%5BSMTv%5D.mkv"; s03e08y = "https://irupc-net.herokuapp.com/50187106819164/Narcos.S03E08.720p.10bit.WEBRip.2CH.x265-%5BSMTv%5D.mkv"; s03e09y = "https://irupc-net.herokuapp.com/50204286688348/Narcos.S03E09.720p.10bit.WEBRip.2CH.x265-%5BSMTv%5D.mkv"; s03e10y = "https://irupc-net.herokuapp.com/50221466557532/Narcos.S03E10.720p.10bit.WEBRip.2CH.x265-%5BSMTv%5D.mkv";
+//Season 02 URL
+s02e01x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S02/iruPC.net_Narcos.S02E01.720p.BluRay.x265.10Bit-x.mkv";
+s02e02x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S02/iruPC.net_Narcos.S02E02.720p.BluRay.x265.10Bit-f.mkv";
+s02e03x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S02/iruPC.net_Narcos.S02E03.720p.BluRay.x265.10Bit-g.mkv";
+s02e04x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S02/iruPC.net_Narcos.S02E04.720p.BluRay.x265.10Bit-e.mkv";
+s02e05x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S02/iruPC.net_Narcos.S02E05.720p.BluRay.x265.10Bit-r.mkv";
+s02e06x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S02/iruPC.net_Narcos.S02E06.720p.BluRay.x265.10Bit-t.mkv";
+s02e07x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S02/iruPC.net_Narcos.S02E07.720p.BluRay.x265.10Bit-y.mkv";
+s02e08x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S02/iruPC.net_Narcos.S02E08.720p.BluRay.x265.10Bit-q.mkv";
+s02e09x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S02/iruPC.net_Narcos.S02E09.720p.BluRay.x265.10Bit-i.mkv";
+s02e10x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S02/iruPC.net_Narcos.S02E10.720p.BluRay.x265.10Bit-p.mkv";
+
+s02e01y = "https://dl.irupc.xyz/540242875292764/narcos.s02e01.720p.bluray.x265.10bit-pahe.in.mkv";
+s02e02y = "https://dl.irupc.xyz/540260055161948/narcos.s02e02.720p.bluray.x265.10bit-pahe.in.mkv";
+s02e03y = "https://dl.irupc.xyz/540277235031132/narcos.s02e03.720p.bluray.x265.10bit-pahe.in.mkv";
+s02e04y = "https://dl.irupc.xyz/540294414900316/narcos.s02e04.720p.bluray.x265.10bit-pahe.in.mkv";
+s02e05y = "https://dl.irupc.xyz/540311594769500/narcos.s02e05.720p.bluray.x265.10bit-pahe.in.mkv";
+s02e06y = "https://dl.irupc.xyz/540328774638684/narcos.s02e06.720p.bluray.x265.10bit-pahe.in.mkv";
+s02e07y = "https://dl.irupc.xyz/540345954507868/narcos.s02e07.720p.bluray.x265.10bit-pahe.in.mkv";
+s02e08y = "https://dl.irupc.xyz/540363134377052/narcos.s02e08.720p.bluray.x265.10bit-pahe.in.mkv";
+s02e09y = "https://dl.irupc.xyz/540380314246236/narcos.s02e09.720p.bluray.x265.10bit-pahe.in.mkv";
+s02e10y = "https://dl.irupc.xyz/540397494115420/narcos.s02e10.720p.bluray.x265.10bit-pahe.in.mkv";
+
+//Season 03 URL
+s03e01x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S03/iruPC.net_Narcos.S03E01.720p.BluRay.x265.10Bit-o.mkv";
+s03e02x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S03/iruPC.net_Narcos.S03E02.720p.BluRay.x265.10Bit-b.mkv";
+s03e03x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S03/iruPC.net_Narcos.S03E03.720p.BluRay.x265.10Bit-n.mkv";
+s03e04x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S03/iruPC.net_Narcos.S03E04.720p.BluRay.x265.10Bit-d.mkv";
+s03e05x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S03/iruPC.net_Narcos.S03E05.720p.BluRay.x265.10Bit-t.mkv";
+s03e06x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S03/iruPC.net_Narcos.S03E06.720p.BluRay.x265.10Bit-y.mkv";
+s03e07x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S03/iruPC.net_Narcos.S03E07.720p.BluRay.x265.10Bit-o.mkv";
+s03e08x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S03/iruPC.net_Narcos.S03E08.720p.BluRay.x265.10Bit-p.mkv";
+s03e09x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S03/iruPC.net_Narcos.S03E09.720p.BluRay.x265.10Bit-q.mkv";
+s03e10x = "https://series.irupc.xyz/0:/TV.Series/Narcos/S03/iruPC.net_Narcos.S03E10.720p.BluRay.x265.10Bit-g.mkv";
+
+s03e01y = "https://dl.irupc.xyz/540586472676444/Narcos.S03E01.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s03e02y = "https://dl.irupc.xyz/540603652545628/Narcos.S03E02.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s03e03y = "https://dl.irupc.xyz/540620832414812/Narcos.S03E03.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s03e04y = "https://dl.irupc.xyz/540638012283996/Narcos.S03E04.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s03e05y = "https://dl.irupc.xyz/540655192153180/Narcos.S03E05.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s03e06y = "https://dl.irupc.xyz/540672372022364/Narcos.S03E06.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s03e07y = "https://dl.irupc.xyz/540689551891548/Narcos.S03E07.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s03e08y = "https://dl.irupc.xyz/540723911629916/Narcos.S03E08.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s03e09y = "https://dl.irupc.xyz/540758271368284/Narcos.S03E09.720p.BluRay.x265.10Bit-Pahe.in.mkv";
+s03e10y = "https://dl.irupc.xyz/540792631106652/Narcos.S03E10.720p.BluRay.x265.10Bit-Pahe.in.mkv";
