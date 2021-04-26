@@ -1,7 +1,7 @@
-lastRes = "480p"; lastSize = "149MB"; lastRip = "HDRip"; lastMsg1 = "x264 Codec File"; lastMsg2 = "---";
-s01Res = "480p"; s01Size = "~100MB"; s01Rip = "HDRip"; s01Msg1 = "x264 Codec File"; s01Msg2 = "---";
-s02Res = "480p"; s02Size = "~120MB"; s02Rip = "HDRip"; s02Msg1 = "x264 Codec File"; s02Msg2 = "---";
-s03Res = "480p"; s03Size = "~170MB"; s03Rip = "HDRip"; s03Msg1 = "x264 Codec File"; s03Msg2 = "---";
+lastRes = "480p"; lastSize = "149MB"; lastRip = "HDRip"; lastMsg1 = "x264 Codec File"; lastMsg2 = "සිංහල Dubbed Epi.";
+s01Res = "480p"; s01Size = "~100MB"; s01Rip = "HDRip"; s01Msg1 = "x264 Codec File"; s01Msg2 = "සිංහල Dubbed Epi.";
+s02Res = "480p"; s02Size = "~120MB"; s02Rip = "HDRip"; s02Msg1 = "x264 Codec File"; s02Msg2 = "සිංහල Dubbed Epi.";
+s03Res = "480p"; s03Size = "~170MB"; s03Rip = "HDRip"; s03Msg1 = "x264 Codec File"; s03Msg2 = "සිංහල Dubbed Epi.";
 
 //Season 01 URL
 s01e01x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S01/iruPC.net_Ben.10.Alien.Force.S01E01-t.mp4";
