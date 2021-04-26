@@ -1,0 +1,105 @@
+lastRes = "480p"; lastSize = "149MB"; lastRip = "HDRip"; lastMsg1 = "x264 Codec File"; lastMsg2 = "---";
+s01Res = "480p"; s01Size = "~100MB"; s01Rip = "HDRip"; s01Msg1 = "x264 Codec File"; s01Msg2 = "---";
+s02Res = "480p"; s02Size = "~120MB"; s02Rip = "HDRip"; s02Msg1 = "x264 Codec File"; s02Msg2 = "---";
+s03Res = "480p"; s03Size = "~170MB"; s03Rip = "HDRip"; s03Msg1 = "x264 Codec File"; s03Msg2 = "---";
+
+//Season 01 URL
+s01e01x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S01/iruPC.net_Ben.10.Alien.Force.S01E01-t.mp4";
+s01e02x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S01/iruPC.net_Ben.10.Alien.Force.S01E02-i.mp4";
+s01e03x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S01/iruPC.net_Ben.10.Alien.Force.S01E03-y.mp4";
+s01e04x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S01/iruPC.net_Ben.10.Alien.Force.S01E04-e.mp4";
+s01e05x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S01/iruPC.net_Ben.10.Alien.Force.S01E05-a.mp4";
+s01e06x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S01/iruPC.net_Ben.10.Alien.Force.S01E06-h.mp4";
+s01e07x = "https://No_Link";
+s01e08x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S01/iruPC.net_Ben.10.Alien.Force.S01E08-x.mp4";
+s01e09x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S01/iruPC.net_Ben.10.Alien.Force.S01E09-y.mkv";
+s01e10x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S01/iruPC.net_Ben.10.Alien.Force.S1E10-g.mp4";
+s01e11x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S01/iruPC.net_Ben.10.Alien.Force.S01E11-r.mkv";
+s01e12x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S01/iruPC.net_Ben.10.Alien.Force.S01E12-f.mkv";
+s01e13x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S01/iruPC.net_Ben.10.Alien.Force.S01E13-d.mp4";
+
+s01e01y = "https://dl.irupc.xyz/545345296440412/Ben10%20S1%20E1.mp4";
+s01e02y = "https://dl.irupc.xyz/545362476309596/B10S1E2.mp4";
+s01e03y = "https://dl.irupc.xyz/545379656178780/B10S1E3.mp4";
+s01e04y = "https://dl.irupc.xyz/545396836047964/B10S1E4.mp4";
+s01e05y = "https://dl.irupc.xyz/545414015917148/B10S1E5.mp4";
+s01e06y = "https://dl.irupc.xyz/545431195786332/B10S1E06.mp4";
+s01e07y = "https://No_Link";
+s01e08y = "https://dl.irupc.xyz/545448375655516/B10S1E8.mp4";
+s01e09y = "https://dl.irupc.xyz/545482735393884/Ben10S01E09.mkv";
+s01e10y = "https://dl.irupc.xyz/545517095132252/B10S1E10.mp4";
+s01e11y = "https://dl.irupc.xyz/545551454870620/Ben10S01E11.mkv";
+s01e12y = "https://dl.irupc.xyz/545602994478172/Ben10S01E12.mkv";
+s01e13y = "https://dl.irupc.xyz/545688893824092/B10S1E13.mp4";
+
+//Season 02 URL
+s02e01x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S02/iruPC.net_Ben.10.Alien.Force.S02E01-r.mp4";
+s02e02x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S02/iruPC.net_Ben.10.Alien.Force.S02E02-e.mp4";
+s02e03x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S02/iruPC.net_Ben.10.Alien.Force.S02E03-w.mp4";
+s02e04x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S02/iruPC.net_Ben.10.Alien.Force.S02E04-y.mp4";
+s02e05x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S02/iruPC.net_Ben.10.Alien.Force.S02E05-s.mp4";
+s02e06x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S02/iruPC.net_Ben.10.Alien.Force.S02E06-a.mp4";
+s02e07x = "https://No_Link";
+s02e08x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S02/iruPC.net_Ben.10.Alien.Force.S02E08-f.mp4";
+s02e09x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S02/iruPC.net_Ben.10.Alien.Force.S02E09-d.mp4";
+s02e10x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S02/iruPC.net_Ben.10.Alien.Force.S02E10-c.mp4";
+s02e11x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S02/iruPC.net_Ben.10.Alien.Force.S02E11-s.mp4";
+s02e12x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S02/iruPC.net_Ben.10.Alien.Force.S02E12-x.mp4";
+s02e13x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S02/iruPC.net_Ben.10.Alien.Force.S02E13-v.mp4";
+
+s02e01y = "https://dl.irupc.xyz/545757613300828/B10S2E1.mp4";
+s02e02y = "https://dl.irupc.xyz/545774793170012/B10S2E2.mp4";
+s02e03y = "https://dl.irupc.xyz/545791973039196/B10S2E3.mp4";
+s02e04y = "https://dl.irupc.xyz/545809152908380/B10S2E04.mp4";
+s02e05y = "https://dl.irupc.xyz/545826332777564/B10S2E5.mp4";
+s02e06y = "https://dl.irupc.xyz/545843512646748/B10S2E6.mp4";
+s02e07y = "https://No_Link";
+s02e08y = "https://dl.irupc.xyz/545860692515932/B10S2E8.mp4";
+s02e09y = "https://dl.irupc.xyz/545895052254300/B10S2E9.mp4";
+s02e10y = "https://dl.irupc.xyz/545929411992668/B10S2E10.mp4";
+s02e11y = "https://dl.irupc.xyz/545963771731036/B10S2E11.mp4";
+s02e12y = "https://dl.irupc.xyz/546015311338588/B10S2E12.mp4";
+s02e13y = "https://dl.irupc.xyz/546032491207772/B10S2E13.mp4";
+
+//Season 03 URL
+s03e01x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E01-e.mp4";
+s03e02x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E02-q.mp4";
+s03e03x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E03-f.mp4";
+s03e04x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E04-v.mp4";
+s03e05x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E05-q.mp4";
+s03e06x = "https://No_Link";
+s03e07x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E07-m.mp4";
+s03e08x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E08-c.mp4";
+s03e09x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E09-t.mp4";
+s03e10x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E10-g.mp4";
+s03e11x = "https://No_Link";
+s03e12x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E12-a.mp4";
+s03e13x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E13-b.mp4";
+s03e14x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E14-n.mp4";
+s03e15x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E15-t.mp4";
+s03e16x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E16-y.mp4";
+s03e17x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E17-c.mp4";
+s03e18x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E18-q.mp4";
+s03e19x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E19-t.mp4";
+s03e20x = "https://series.irupc.xyz/0:/Sin.Dubbed/Ben.10.Alien.Force/S03/iruPC.net_Ben.10.Alien.Force.S03E20-z.mp4";
+
+s03e01y = "https://dl.irupc.xyz/546169930161244/B10S3E1.mp4";
+s03e02y = "https://dl.irupc.xyz/546187110030428/B10S3E2.mp4";
+s03e03y = "https://dl.irupc.xyz/546204289899612/B10S3E3.mp4";
+s03e04y = "https://dl.irupc.xyz/546221469768796/B10S3E4.mp4";
+s03e05y = "https://dl.irupc.xyz/546238649637980/B10S3E5.mp4";
+s03e06y = "https://No_Link";
+s03e07y = "https://dl.irupc.xyz/546273009376348/B10S3E7.mp4";
+s03e08y = "https://dl.irupc.xyz/546307369114716/B10S3E8.mp4";
+s03e09y = "https://dl.irupc.xyz/546324548983900/B10S3E9.mp4";
+s03e10y = "https://dl.irupc.xyz/546376088591452/B10S3E10.mp4";
+s03e11y = "https://No_Link";
+s03e12y = "https://dl.irupc.xyz/546410448329820/B10S3E12.mp4";
+s03e13y = "https://dl.irupc.xyz/546427628199004/B10S3E13.mp4";
+s03e14y = "https://dl.irupc.xyz/546496347675740/B10S3E14.mp4";
+s03e15y = "https://dl.irupc.xyz/546530707414108/B10S3E15.mp4";
+s03e16y = "https://dl.irupc.xyz/546547887283292/B10S3E16.mp4";
+s03e17y = "https://dl.irupc.xyz/546582247021660/B10S3E17.mp4";
+s03e18y = "https://dl.irupc.xyz/546616606760028/B10S3E18.mp4";
+s03e19y = "https://dl.irupc.xyz/546650966498396/B10S2E19.mp4";
+s03e20y = "https://dl.irupc.xyz/546685326236764/B10S3E20.mp4";
