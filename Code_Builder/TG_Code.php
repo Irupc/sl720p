@@ -283,18 +283,40 @@ function genAndCopyBtn(){
                 final_h = (runtime/60|0)+"h";
                 final_min = (runtime%60)+"m";
             }
+            var oriLang = "";
+            if (data.original_language == "en"){oriLang = "English";} 
+            else if (data.original_language == "te"){oriLang = "Telugu"}
+            else if (data.original_language == "ta"){oriLang = "Tamil"}
+            else if (data.original_language == "ml"){oriLang = "Malayalam"}
+            else if (data.original_language == "es"){oriLang = "Spanish"}
+            else if (data.original_language == "si"){oriLang = "Sinhala"}
+            else if (data.original_language == "fr"){oriLang = "French"}
+            else if (data.original_language == "hi"){oriLang = "Hindi"}
+            else if (data.original_language == "th"){oriLang = "Thai"}
+            else if (data.original_language == "tr"){oriLang = "Turkish"}
+            else if (data.original_language == "kn"){oriLang = "Kannada"}
+            else if (data.original_language == "cn"){oriLang = "Cantonese"}
+            else if (data.original_language == "zh"){oriLang = "Chinese"}
+            else if (data.original_language == "pl"){oriLang = "Polish"}
+            else if (data.original_language == "ru"){oriLang = "Russian"}
+            else if (data.original_language == "sv"){oriLang = "Swedish"}
+            else if (data.original_language == "de"){oriLang = "German"}
+            else if (data.original_language == "it"){oriLang = "Italian"}
+            else if (data.original_language == "ko"){oriLang = "Korean"}
+            else if (data.original_language == "bn"){oriLang = "Bengali"}
+            else {oriLang = "Unknown"}
             document.getElementById("imageOFMovie").innerHTML = "<img src=https://www.themoviedb.org/t/p/w600_and_h900_bestv2/"+data.poster_path+" alt=&quot;image&quot;>";
 result_English = `🎬 ${data.title} #${data.release_date.split("-")[0]}
 🔥 TMDB ---» ${data.vote_average*10}%
 ⏱ ${final_h} ${final_min}
 ⚖️ ${genreIP}
-🔊 #${data.spoken_languages[0].english_name}
+🔊 #${oriLang}
 `;
 result_Other = `🎬 ${data.title} #${data.release_date.split("-")[0]}
 🔥 TMDB --» ${data.vote_average*10}%
 ⏱ ${final_h} ${final_min}
 ⚖️${genreIP}
-🔊 #${data.spoken_languages[0].english_name}
+🔊 #${oriLang}
 💎 ${data.original_title}
 `;
                 if (data.spoken_languages[0].english_name == "English"){
