@@ -1,14 +1,15 @@
-lastRes = "720p"; lastSize = "426MB"; lastRip = "WebRip"; lastMsg1 = "Warning! This is x265 (HEVC) Codec"; lastMsg2 = "Some <b>Televisions</b> may not be able to play this video";
-s01Res = "720p"; s01Size = "~350MB"; s01Rip = "WebRip"; s01Msg1 = "Warning! This is x265 (HEVC) Codec"; s01Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s02Res = "720p"; s02Size = "~400MB"; s02Rip = "WebRip"; s02Msg1 = "Warning! This is x265 (HEVC) Codec"; s02Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s03Res = "720p"; s03Size = "~300MB"; s03Rip = "WebRip"; s03Msg1 = "Warning! This is x265 (HEVC) Codec"; s03Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s04Res = "720p"; s04Size = "~300MB"; s04Rip = "WebRip"; s04Msg1 = "Warning! This is x265 (HEVC) Codec"; s04Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s05Res = "480p"; s05Size = "~151MB"; s05Rip = "WebRip"; s05Msg1 = "Warning! This is x265 (HEVC) Codec"; s05Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s06Res = "720p"; s06Size = "~200MB"; s06Rip = "WebDL"; s06Msg1 = "Warning! This is x265 (HEVC) Codec"; s06Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s07Res = "720p"; s07Size = "~274MB"; s07Rip = "HDTV"; s07Msg1 = "x264 Codec File"; s07Msg2 = "---";
-s08Res = "720p"; s08Size = "~125MB"; s08Rip = "HDTV"; s08Msg1 = "Warning! This is x265 (HEVC) Codec"; s08Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s09Res = "720p"; s09Size = "~125MB"; s09Rip = "HDTV"; s09Msg1 = "Warning! This is x265 (HEVC) Codec"; s09Msg2 = "Some <b>Televisions</b> may not be able to play this video";
-s10Res = "720p"; s10Size = "~125MB"; s10Rip = "HDTV"; s10Msg1 = "Warning! This is x265 (HEVC) Codec"; s10Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+lastRes = "720p"; lastSize = "297MB"; lastRip = "WebRip"; lastMsg1 = "Warning! This is x265 (HEVC) Codec"; lastMsg2 = "Some <b>Televisions</b> may not be able to play this video";
+s01Res = "720p"; s01Size = "~350MB"; s01Rip = "BluRay"; s01Msg1 = "Warning! This is x265 (HEVC) Codec"; s01Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+s02Res = "720p"; s02Size = "~430MB"; s02Rip = "BluRay"; s02Msg1 = "Warning! This is x265 (HEVC) Codec"; s02Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+s03Res = "720p"; s03Size = "~320MB"; s03Rip = "BluRay"; s03Msg1 = "Warning! This is x265 (HEVC) Codec"; s03Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+s04Res = "720p"; s04Size = "~320MB"; s04Rip = "BluRay"; s04Msg1 = "Warning! This is x265 (HEVC) Codec"; s04Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+s05Res = "480p"; s05Size = "~270MB"; s05Rip = "HDTV"; s05Msg1 = "Warning! This is x265 (HEVC) Codec"; s05Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+s06Res = "720p"; s06Size = "~300MB"; s06Rip = "HDTV"; s06Msg1 = "Warning! This is x265 (HEVC) Codec"; s06Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+s07Res = "720p"; s07Size = "~374MB"; s07Rip = "WebRip"; s07Msg1 = "Warning! This is x265 (HEVC) Codec"; s07Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+s08Res = "720p"; s08Size = "~335MB"; s08Rip = "WebRip"; s08Msg1 = "Warning! This is x265 (HEVC) Codec"; s08Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+s09Res = "720p"; s09Size = "~335MB"; s09Rip = "WebRip"; s09Msg1 = "Warning! This is x265 (HEVC) Codec"; s09Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+s10Res = "720p"; s10Size = "~300MB"; s10Rip = "WebRip"; s10Msg1 = "Warning! This is x265 (HEVC) Codec"; s10Msg2 = "Some <b>Televisions</b> may not be able to play this video";
+s11Res = "720p"; s11Size = "~310MB"; s11Rip = "WebRip"; s11Msg1 = "Warning! This is x265 (HEVC) Codec"; s11Msg2 = "Some <b>Televisions</b> may not be able to play this video";
 
 //Season 01 URL
 s01e01x = "https://dl.irupc.xyz/558676874927196/Shameless.US.S01E01.720p.BluRay.x265.HEVC-@iMediaShare.mkv";
