@@ -252,6 +252,7 @@ fileSize = document.getElementById("fileSize").value
         document.execCommand("copy");
         }
     function clickMeBtnSec(windowURL){
+        fileSize = document.getElementById("fileSize").value
     indexOfSever = windowURL.split("/")[2];
     fileName = windowURL.split("search?q=")[1];
     if (indexOfSever == "dl.irupc.xyz"){
@@ -293,7 +294,7 @@ fileSize = document.getElementById("fileSize").value
         for(i=1; i < noOfEpi; i++){
             fineal_Cut = fineal_Cut+cutNoOne[i].split(`
 
-Hack_TG,`)[0]+"***";
+TGStreamerBot,`)[0]+"***";
         }
         console.log(fineal_Cut.split("***").sort());
         outPut="";
