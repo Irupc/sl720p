@@ -1,4 +1,6 @@
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -206,6 +208,7 @@ textarea, .form-control{
         <input type="text" id="Episodes" style="background-color:black; color: blanchedalmond;" placeholder="No Of Epis + 1"><br><br>
         <textarea name="Input" id="Input" cols="30" rows="5" placeholder="Input the Link from @tgstreamerbot"></textarea><br>
         <textarea name="Output" id="Output" cols="30" rows="5" placeholder="Output will Appear here"></textarea><br>
+<input type="text" id="fileSize" style="background-color:black; color: blanchedalmond;" placeholder="File Size"><br><br>
         <button class="btn btn-danger btn-block" onclick="startWorking()">Single Link</button> | <button class="btn btn-danger btn-block" onclick="clickMe()">TV Series</button>
     </center>
 </body>
@@ -215,6 +218,7 @@ textarea, .form-control{
         clickMeBtn(windowURL);
     }
     function clickMeBtn(windowURL){
+fileSize = document.getElementById("fileSize").value
     indexOfSever = windowURL.split("/")[2];
     fileName = windowURL.split("search?q=")[1];
     if (indexOfSever == "dl.irupc.xyz"){
@@ -240,7 +244,7 @@ textarea, .form-control{
     }
     realNumbers = numberVar.replace(/1/g, "r").replace(/2/g, "c").replace(/3/g, "y").replace(/4/g, "j").replace(/5/g, "p").replace(/6/g, "q").replace(/7/g, "k").replace(/8/g, "a").replace(/9/g, "t").replace(/0/g, "z");
     
-    document.getElementById("Output").value = `https://darksoul.irupc.net${urlOfSever}${realNumbers}/search_q=${fileName}-iRuPC.LInKs`;
+    document.getElementById("Output").value = `https://darksoul.irupc.net${urlOfSever}${realNumbers}/search_q=${fileName}-iRuPC.LInKs=${fileSize}`;
 
         var copyText = document.getElementById("Output");
         copyText.select();
@@ -274,7 +278,7 @@ textarea, .form-control{
     realNumbers = numberVar.replace(/1/g, "r").replace(/2/g, "c").replace(/3/g, "y").replace(/4/g, "j").replace(/5/g, "p").replace(/6/g, "q").replace(/7/g, "k").replace(/8/g, "a").replace(/9/g, "t").replace(/0/g, "z");
     
     //document.getElementById("Output").value = `https://darksoul.irupc.net${urlOfSever}${realNumbers}/search_q=${fileName}`;
-    newLink = `https://darksoul.irupc.net${urlOfSever}${realNumbers}/search?q=${fileName}-iRuPC.LInKs`;
+    newLink = `https://darksoul.irupc.net${urlOfSever}${realNumbers}/search?q=${fileName}-iRuPC.LInKs=${fileSize}`;
 
         var copyText = document.getElementById("Output");
         copyText.select();
