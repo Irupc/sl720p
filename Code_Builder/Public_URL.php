@@ -211,7 +211,7 @@ textarea, .form-control{
 </body>
 <script>
     function startWorking(){
-        windowURL = document.getElementById("Input").value;
+        windowURL = document.getElementById("Input").value.replace("irupc-net.herokuapp.com", "dl.irupc.xyz");
         clickMeBtn(windowURL);
     }
     function clickMeBtn(windowURL){
@@ -240,7 +240,7 @@ textarea, .form-control{
     }
     realNumbers = numberVar.replace(/1/g, "r").replace(/2/g, "c").replace(/3/g, "y").replace(/4/g, "j").replace(/5/g, "p").replace(/6/g, "q").replace(/7/g, "k").replace(/8/g, "a").replace(/9/g, "t").replace(/0/g, "z");
     
-    document.getElementById("Output").value = `https://darksoul.irupc.net${urlOfSever}${realNumbers}/search?q=${fileName}`;
+    document.getElementById("Output").value = `https://darksoul.irupc.net${urlOfSever}${realNumbers}/search_q=${fileName}-iRuPC.LInKs`;
 
         var copyText = document.getElementById("Output");
         copyText.select();
@@ -273,8 +273,8 @@ textarea, .form-control{
     }
     realNumbers = numberVar.replace(/1/g, "r").replace(/2/g, "c").replace(/3/g, "y").replace(/4/g, "j").replace(/5/g, "p").replace(/6/g, "q").replace(/7/g, "k").replace(/8/g, "a").replace(/9/g, "t").replace(/0/g, "z");
     
-    //document.getElementById("Output").value = `https://darksoul.irupc.net${urlOfSever}${realNumbers}/search?q=${fileName}`;
-    newLink = `https://darksoul.irupc.net${urlOfSever}${realNumbers}/search?q=${fileName}`;
+    //document.getElementById("Output").value = `https://darksoul.irupc.net${urlOfSever}${realNumbers}/search_q=${fileName}`;
+    newLink = `https://darksoul.irupc.net${urlOfSever}${realNumbers}/search?q=${fileName}-iRuPC.LInKs`;
 
         var copyText = document.getElementById("Output");
         copyText.select();
@@ -289,7 +289,7 @@ textarea, .form-control{
         for(i=1; i < noOfEpi; i++){
             fineal_Cut = fineal_Cut+cutNoOne[i].split(`
 
-TGStreamerBot,`)[0]+"***";
+Hack_TG,`)[0]+"***";
         }
         console.log(fineal_Cut.split("***").sort());
         outPut="";
