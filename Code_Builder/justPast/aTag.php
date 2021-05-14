@@ -43,7 +43,7 @@
             if (i<10){numBer = "0"+i;}
             else {numBer = i;}
             outPut = `${outPut}
-<a href="https://${inputLinksX[i]}">S${noOfSea2s}E${numBer}x</a> |`;
+<a href="https://${inputLinksX[i]}">S${noOfSea2s}E${numBer}</a> |`;
         }
         document.getElementById("outLink1s").value = `<p style="text-align: center;"><span style="font-size: 18pt;"><strong>Season ${noOfSea2s}</strong></span></p>`+outPut.split(`
 `);
