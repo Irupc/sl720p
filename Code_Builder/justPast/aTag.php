@@ -23,6 +23,8 @@
     <textarea style="display:none;" name="defHTML" id="defHTML" cols="30" rows="10" placeholder="Link Out"></textarea><br>
     <textarea style="display:none;" name="defJS" id="defJS" cols="30" rows="10" placeholder="Link Out"></textarea><br>
     <button onclick="clickBtn()">Click Me</button><br><br>
+    <input type="radio" id="x264" name="rad">x264 Codec
+    <input type="radio" id="x265" name="rad" checked>x265 Codec
 </body>
 <script>
     function clickBtn(){
