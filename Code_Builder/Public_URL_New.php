@@ -353,7 +353,7 @@ Series</button>
 (/8/g, "a").replace(/9/g, "t").replace(/0/g, "z");
 
         //document.getElementById("Output").value = `https://darksoul.irupc.net${urlOfSever}${realNumbers}/search_q=${fileName}`;
-        newLink = `https://darksoul.irupc.net${urlOfSever}${realNumbers}/search?q=${fileName}-iRuPC.LInKs=${fileSize}`;
+        newLink = `https://darksoul.irupc.net${urlOfSever}${realNumbers}/search_q=${fileName}-iRuPC.LInKs=${fileSize}`;
 
         var copyText = document.getElementById("Output");
         copyText.select();
