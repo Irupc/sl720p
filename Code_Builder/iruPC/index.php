@@ -53,6 +53,7 @@
         <textarea id="link11B" cols="32" rows="3" placeholder="@tgstreamerbot - 1"></textarea><br>
         <textarea id="link11C" cols="32" rows="3" placeholder="@irupc_sever_bot - 1"></textarea><br>
         <select id="exCont11">
+            <option value="">No Special</option>
             <option value="10-bit">10-bit</option>
             <option value="2CH">2CH</option>
             <option value="6CH">6CH</option>
