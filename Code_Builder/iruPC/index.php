@@ -50,8 +50,8 @@
         <button id="btn66">6 Links</button>
     <div class="set11" id="set11">
         <textarea id="link11A" cols="32" rows="3" placeholder="Download Link 11A"></textarea><br>
-        <textarea id="link11B" cols="32" rows="3" placeholder="Download Link 11B"></textarea><br>
-        <textarea id="link11C" cols="32" rows="3" placeholder="Download Link 11C"></textarea><br>
+        <textarea id="link11B" cols="32" rows="3" placeholder="@tgstreamerbot - 1"></textarea><br>
+        <textarea id="link11C" cols="32" rows="3" placeholder="@irupc_sever_bot - 1"></textarea><br>
         <select id="exCont11">
             <option value="10-bit">10-bit</option>
             <option value="2CH">2CH</option>
@@ -68,6 +68,9 @@
             <option value="480p">480p</option>
             <option value="1080p">1080p</option>
             <option value="2160p">2160p</option>
+            <option value="540p">540p</option>
+            <option value="360p">360p</option>
+            <option value="240p">240p</option>
         </select>
         <select id="rip11">
             <option value="BluRay">BluRay</option>
@@ -90,9 +93,10 @@
     <br><br><br>
     <div class="set" id="set22">
         <textarea id="link22A" cols="32" rows="3" placeholder="Download Link 22A"></textarea><br>
-        <textarea id="link22B" cols="32" rows="3" placeholder="Download Link 22B"></textarea><br>
-        <textarea id="link22C" cols="32" rows="3" placeholder="Download Link 22C"></textarea><br>
+        <textarea id="link22B" cols="32" rows="3" placeholder="@tgstreamerbot - 2"></textarea><br>
+        <textarea id="link22C" cols="32" rows="3" placeholder="@irupc_sever_bot - 2"></textarea><br>
         <select id="exCont22">
+            <option value="">No Special</option>
             <option value="10-bit">10-bit</option>
             <option value="2CH">2CH</option>
             <option value="6CH">6CH</option>
@@ -108,6 +112,9 @@
             <option value="480p">480p</option>
             <option value="1080p">1080p</option>
             <option value="2160p">2160p</option>
+            <option value="540p">540p</option>
+            <option value="360p">360p</option>
+            <option value="240p">240p</option>
         </select>
         <select id="rip22">
             <option value="BluRay">BluRay</option>
@@ -130,9 +137,10 @@
     <br><br><br>
     <div class="set" id="set33">
         <textarea id="link33A" cols="32" rows="3" placeholder="Download Link 33A"></textarea><br>
-        <textarea id="link33B" cols="32" rows="3" placeholder="Download Link 33B"></textarea><br>
-        <textarea id="link33C" cols="32" rows="3" placeholder="Download Link 33C"></textarea><br>
+        <textarea id="link33B" cols="32" rows="3" placeholder="@tgstreamerbot - 3"></textarea><br>
+        <textarea id="link33C" cols="32" rows="3" placeholder="@irupc_sever_bot - 3"></textarea><br>
         <select id="exCont33">
+            <option value="">No Special</option>
             <option value="10-bit">10-bit</option>
             <option value="2CH">2CH</option>
             <option value="6CH">6CH</option>
@@ -148,6 +156,9 @@
             <option value="480p">480p</option>
             <option value="1080p">1080p</option>
             <option value="2160p">2160p</option>
+            <option value="540p">540p</option>
+            <option value="360p">360p</option>
+            <option value="240p">240p</option>
         </select>
         <select id="rip33">
             <option value="BluRay">BluRay</option>
@@ -170,9 +181,10 @@
     <br><br><br>
     <div class="set" id="set44">
         <textarea id="link44A" cols="32" rows="3" placeholder="Download Link 44A"></textarea><br>
-        <textarea id="link44B" cols="32" rows="3" placeholder="Download Link 44B"></textarea><br>
-        <textarea id="link44C" cols="32" rows="3" placeholder="Download Link 44C"></textarea><br>
+        <textarea id="link44B" cols="32" rows="3" placeholder="@tgstreamerbot - 4"></textarea><br>
+        <textarea id="link44C" cols="32" rows="3" placeholder="@irupc_sever_bot - 4"></textarea><br>
         <select id="exCont44">
+            <option value="">No Special</option>
             <option value="10-bit">10-bit</option>
             <option value="2CH">2CH</option>
             <option value="6CH">6CH</option>
@@ -188,6 +200,9 @@
             <option value="480p">480p</option>
             <option value="1080p">1080p</option>
             <option value="2160p">2160p</option>
+            <option value="540p">540p</option>
+            <option value="360p">360p</option>
+            <option value="240p">240p</option>
         </select>
         <select id="rip44">
             <option value="BluRay">BluRay</option>
@@ -210,9 +225,10 @@
     <br><br><br>
     <div class="set" id="set55">
         <textarea id="link55A" cols="32" rows="3" placeholder="Download Link 55A"></textarea><br>
-        <textarea id="link55B" cols="32" rows="3" placeholder="Download Link 55B"></textarea><br>
-        <textarea id="link55C" cols="32" rows="3" placeholder="Download Link 55C"></textarea><br>
+        <textarea id="link55B" cols="32" rows="3" placeholder="@tgstreamerbot - 5"></textarea><br>
+        <textarea id="link55C" cols="32" rows="3" placeholder="@irupc_sever_bot - 5"></textarea><br>
         <select id="exCont55">
+            <option value="">No Special</option>
             <option value="10-bit">10-bit</option>
             <option value="2CH">2CH</option>
             <option value="6CH">6CH</option>
@@ -228,6 +244,9 @@
             <option value="480p">480p</option>
             <option value="1080p">1080p</option>
             <option value="2160p">2160p</option>
+            <option value="540p">540p</option>
+            <option value="360p">360p</option>
+            <option value="240p">240p</option>
         </select>
         <select id="rip55">
             <option value="BluRay">BluRay</option>
@@ -250,9 +269,10 @@
     <br><br><br>
     <div class="set" id="set66">
         <textarea id="link66A" cols="32" rows="3" placeholder="Download Link 66A"></textarea><br>
-        <textarea id="link66B" cols="32" rows="3" placeholder="Download Link 66B"></textarea><br>
-        <textarea id="link66C" cols="32" rows="3" placeholder="Download Link 66C"></textarea><br>
+        <textarea id="link66B" cols="32" rows="3" placeholder="@tgstreamerbot - 6"></textarea><br>
+        <textarea id="link66C" cols="32" rows="3" placeholder="@irupc_sever_bot - 6"></textarea><br>
         <select id="exCont66">
+            <option value="">No Special</option>
             <option value="10-bit">10-bit</option>
             <option value="2CH">2CH</option>
             <option value="6CH">6CH</option>
@@ -268,6 +288,9 @@
             <option value="480p">480p</option>
             <option value="1080p">1080p</option>
             <option value="2160p">2160p</option>
+            <option value="540p">540p</option>
+            <option value="360p">360p</option>
+            <option value="240p">240p</option>
         </select>
         <select id="rip66">
             <option value="BluRay">BluRay</option>
