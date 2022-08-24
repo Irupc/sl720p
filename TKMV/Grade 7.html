@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #2196F3;
+  padding: 10px;
+}
+@media only screen and (max-width: 650px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.topic{
+    font-size: xx-large;
+}
+button{
+    background-color: red;
+    background-size: 20px;
+    font-size: x-large;
+    border-radius: 12px;
+    border-style: hidden;
+    cursor: pointer;
+    padding: 10px;
+}
+.question{
+    display: none;
+}
+#time{
+  display: none;
+}
+.rowOne{
+  background-color: yellow;
+  font-weight: bold;
+}
+.rowTwo{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-color: yellow;
+}
+body{
+  background-color: gray;
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-item topic rowOne">විද්‍යා සංගමය</div>
+    <div class="grid-item rowOne">කුමාර මහා විද්‍යාලය - තෙප්පනාව</div>
+    <div class="grid-item rowTwo">7 ශ්‍රේණිය</div>
+    <div class="grid-item rowTwo">
+      <button id="button" onclick="hide()" >ආරම්භ කිරීමට මෙහි Click කරන්න</button>
+      <span id="time">10:00</span>
+    </div>  
+    <div class="grid-item question">01. ඨ්වනි සම්ප්‍රේෂණයට අත්‍යවශ්‍ය අංගය කුමක්ද?</div>
+    <div class="grid-item question">02. ජීවයේ ව්‍යුහමය හා කෘත්‍යමය ඒකකය ලෙස සලකන්නේ කුමක්ද?</div>  
+    <div class="grid-item question">03. ශාකයක ජලය ගෙනයන පටකය හඳුන්වන නම කුමක්ද?</div>
+    <div class="grid-item question">04. කුඩා අන්ත්‍රයේ දිග ආසන්න වශයෙන් කොපමණ ද?</div>
+    <div class="grid-item question">05. ජාත්‍යන්තර අභ්‍යවකාශ මධ්‍යස්ථානය රඳවා ඇත්තේ වායුගෝලය කුමන ස්ථරයේ ද?</div> 
+    <div class="grid-item question">06. ජලයේ තාපාංකය කීයද?</div> 
+    <div class="grid-item question">07. ජලය තුළ ධ්වනි සම්ප්‍රේෂණ වේගය කොපමණද?</div> 
+    <div class="grid-item question">08. ග්ලූකෝස් හඳුනාගැනීමට භාවිතා කරන රසායනික ද්‍රව්‍ය කුමක්ද?</div> 
+    <div class="grid-item question">09. භූ විද්‍යාඥ F.L.D. ඒකනායක මහතා නමින් නම් කළ ඛනිජය කුමක්ද?</div> 
+    <div class="grid-item question">10. ලංකාව තුළ ප්‍රසිද්ධ උණුදිය උල්පත් හතක් පිහිටා ඇති ප්‍රදේශය කුමක්ද?</div> 
+    <div class="grid-item question">11. ඔයා පිනොප්තලීන් භස්ම සමග එක් කළ විට ලබාදෙන වර්ණය කුමක්ද?</div> 
+    <div class="grid-item question">12. වියළි කෝෂයක ධන අග්‍රය ලෙස ක්‍රියා කරන්නේ කුමක්ද?</div> 
+    <div class="grid-item question">13. මිනිසාගේ පියවි ඇසෙන් විභේදනය කොපමනද?</div> 
+    <div class="grid-item question">14. තල දර්පන දෙකක් අතර කෝණය අංශක හැටක් වන විට ලැබෙන ප්‍රතිලාභ සංඛ්‍යාව කොපමණද?</div> 
+    <div class="grid-item question">15. උතුරු ඇමෙරිකාවේ කැලිෆෝනියා ප්‍රාන්තයේ 1000km පමණ දිග පැල්මක් ලෙස ඇති භූ තැටි මායිම හඳුන්වන නම කුමක්ද?</div> 
+    <div class="grid-item question">16. පිහිටීමේ වෙනසක් නිසා හටගන්නා වස්තුක් තුළ ගබඩා වී ඇති ශක්තිය හඳුන්වන නම කුමක්ද?</div> 
+    <div class="grid-item question">17. රම්පේ ශාකයේ පිහිටා ඇති විශේෂ කාර්ය ඉටු කරන මුල් වර්ගය කුමක්ද?</div> 
+    <div class="grid-item question">18. සූර්යයා හා පෘථිවිය අතරට චන්ද්‍රයා පැමිණි විට සූර්යයා නොපෙනී නොපෙනීයාම හඳුන්වන නම කුමක්ද?</div> 
+    <div class="grid-item question">19. වාහන වල ඇති කණ්නාඩි ලෙස යොදා ගන්නා දර්පණ වර්ගය කුමක්ද?</div> 
+    <div class="grid-item question">20. ශ්‍රී ලංකාවේ පොල් පර්යේෂණායතනය පිහිටා ඇත්තේ කොහේද?</div> 
+    <div class="grid-item question">21. ලොව උසම කන්ද කුමක්ද?</div> 
+    <div class="grid-item question">22. සීගිරිය අයත් වන දිස්ත්‍රික්කය කුමක්ද?</div> 
+    <div class="grid-item question">23. ක්ෂීරපායියෙක් වුවද බිත්තර දමන කූඹි ආහාරයට ගන්නා සත්වයා කවුද?</div> 
+    <div class="grid-item question">24. ලේවල රතු පාටට හේතුවන වර්ණකය හඳුන්වන නම කුමක්ද?</div> 
+    <div class="grid-item question">25. පුංචි එංගලන්තය ලෙස හඳුන්වන ශ්‍රී ලංකාවේ පිහිටි ස්ථානය කුමක්ද?</div> 
+</div>
+
+</body>
+<script>
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+
+function hide() {
+    var cubes = document.getElementsByClassName('question');
+    for (var i = 0; i < cubes.length; i++) {
+        cubes[i].style.display = '';
+    }
+    for (var i = 0; i < 6;) {
+        var y = Math.floor(Math.random() * 25);
+        if (cubes[y].style.display == '') {
+            cubes[y].style.display = 'block';
+            i++;
+        }
+    }
+    document.getElementById("time").style.display = "block";
+    document.getElementById("button").style.display = "none";
+
+    var fiveMinutes = 60 * 10,
+      display = document.querySelector('#time');
+    startTimer(fiveMinutes, display);
+}
+
+</script>
+</html>

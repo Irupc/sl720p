@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #2196F3;
+  padding: 10px;
+}
+@media only screen and (max-width: 650px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.topic{
+    font-size: xx-large;
+}
+button{
+    background-color: red;
+    background-size: 20px;
+    font-size: x-large;
+    border-radius: 12px;
+    border-style: hidden;
+    cursor: pointer;
+    padding: 10px;
+}
+.question{
+    display: none;
+}
+#time{
+  display: none;
+}
+.rowOne{
+  background-color: yellow;
+  font-weight: bold;
+}
+.rowTwo{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-color: yellow;
+}
+body{
+  background-color: gray;
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-item topic rowOne">විද්‍යා සංගමය</div>
+    <div class="grid-item rowOne">කුමාර මහා විද්‍යාලය - තෙප්පනාව</div>
+    <div class="grid-item rowTwo">8 ශ්‍රේණිය</div>
+    <div class="grid-item rowTwo">
+      <button id="button" onclick="hide()" >ආරම්භ කිරීමට මෙහි Click කරන්න</button>
+      <span id="time">10:00</span>
+    </div>  
+    <div class="grid-item question">01. භෞමික ශාක වලින් වායුගෝලයට ජලය වාෂ්ප වීම වාෂ්පවීම හඳුන්වන්නේ කුමන නමකින්ද?</div>
+    <div class="grid-item question">02. ලා කොළ පාට වායුවක් ලෙස දැකගත හැකි මූල ද්‍රව්‍ය කුමක්ද?</div>  
+    <div class="grid-item question">03. පදාර්ථය අංශුමය ස්වභාවයකින් යුක්ත බව ප්‍රකාශ කරන ලද්දේ කවුද?</div>
+    <div class="grid-item question">04. ලාදුරු රෝගය ඇති කරන ක්ෂුද්‍ර ජීවී කාණ්ඩය කුමක්ද?</div>
+    <div class="grid-item question">05. කම්පන සංඛ්‍යාතය මනිනු ලබන අන්තර්ජාතික ඒකකය කුමක්ද?</div> 
+    <div class="grid-item question">06. අයිස් වල ද්‍රවාංකය කීයද?</div> 
+    <div class="grid-item question">07. ඝන ද්‍රව්‍යයක් රත් කිරීමේදී ද්‍රව බවට පත් නොවී වාෂ්ප බවට පත්වීම හඳුන්වන නම කුමක්ද?</div> 
+    <div class="grid-item question">08. හොඳින් ඔක්සිජන් ලැබෙන විට බන්සන් දැල්ලේ වර්ණය කුමක්ද?</div> 
+    <div class="grid-item question">09. ස්කන්ධ සංස්ථිති නියමය ඉදිරිපත් කරන ලද්දේ කවුද?</div> 
+    <div class="grid-item question">10. අක්මාවේ පිහිටීම නිසා මදක් පහලින් පිහිටි වකුගඩුව කුමක්ද?</div> 
+    <div class="grid-item question">11. සමෙහි වර්ණයට හේතුවන හේතු වන වර්ණය කුමක්ද?</div> 
+    <div class="grid-item question">12. සූර්යයා චන්ද්‍රයා අතරට පෘථිවිය පැමිණි විට ඇතිවන අවස්ථාව කුමන නමකින් හඳුන්වයි ද?</div> 
+    <div class="grid-item question">13. උප ග්‍රහයින් වැඩිම ග්‍රහලෝකය කුමක්ද?</div> 
+    <div class="grid-item question">14. ශ්‍රී ලංකාවට පැමිණි ලොව ප්‍රථම අභ්‍යාවකාශගාමියා කවුද?</div> 
+    <div class="grid-item question">15. නිවුන් සොහොයුරන් දෙදෙනෙකු නිරූපණය කරන තරු රටාව කුමක්ද?</div> 
+    <div class="grid-item question">16. විභව අන්තරය මනින උපකරණය කුමක්ද?</div> 
+    <div class="grid-item question">17. ඕකිඩ් වල ඇති ජල වාෂ්ප අවශෝෂණය කරන මුල් වර්ගය හඳුන්වන නම කුමක්ද?</div> 
+    <div class="grid-item question">18. ශාක පත්‍රයක ප්‍රධාන කෘත්‍යය කුමක්ද?</div> 
+    <div class="grid-item question">19. බුහුබා සහ මෙඩුසා ලෙස දේහ ආකාර දෙකක් ඇති ග්‍රාහිකා වල විෂ පිහිටි සත්ත්ව කාණ්ඩය කුමක්ද?</div> 
+    <div class="grid-item question">20. ප්‍රෝටීන් බහුලව අඩංගු ආහාර මත ක්ෂුද්‍ර ජීවීන්ගේ ක්‍රියාකාරීත්වය නිසා ආහාරයේ ඇති වන වෙනස හඳුන්වන නම කුමක්ද?</div> 
+    <div class="grid-item question">21. ලොව උසම කන්ද කුමක්ද?</div> 
+    <div class="grid-item question">22. සීගිරිය අයත් වන දිස්ත්‍රික්කය කුමක්ද?</div> 
+    <div class="grid-item question">23. ක්ෂීරපායියෙක් වුවද බිත්තර දමන කූඹි ආහාරයට ගන්නා සත්වයා කවුද?</div> 
+    <div class="grid-item question">24. ලේවල රතු පාටට හේතුවන වර්ණකය හඳුන්වන නම කුමක්ද?</div> 
+    <div class="grid-item question">25. පුංචි එංගලන්තය ලෙස හඳුන්වන ශ්‍රී ලංකාවේ පිහිටි ස්ථානය කුමක්ද?</div> 
+</div>
+
+</body>
+<script>
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+
+function hide() {
+    var cubes = document.getElementsByClassName('question');
+    for (var i = 0; i < cubes.length; i++) {
+        cubes[i].style.display = '';
+    }
+    for (var i = 0; i < 6;) {
+        var y = Math.floor(Math.random() * 25);
+        if (cubes[y].style.display == '') {
+            cubes[y].style.display = 'block';
+            i++;
+        }
+    }
+    document.getElementById("time").style.display = "block";
+    document.getElementById("button").style.display = "none";
+
+    var fiveMinutes = 60 * 10,
+      display = document.querySelector('#time');
+    startTimer(fiveMinutes, display);
+}
+
+</script>
+</html>

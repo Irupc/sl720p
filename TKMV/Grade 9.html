@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #2196F3;
+  padding: 10px;
+}
+@media only screen and (max-width: 650px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.topic{
+    font-size: xx-large;
+}
+button{
+    background-color: red;
+    background-size: 20px;
+    font-size: x-large;
+    border-radius: 12px;
+    border-style: hidden;
+    cursor: pointer;
+    padding: 10px;
+}
+.question{
+    display: none;
+}
+#time{
+  display: none;
+}
+.rowOne{
+  background-color: yellow;
+  font-weight: bold;
+}
+.rowTwo{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-color: yellow;
+}
+body{
+  background-color: gray;
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-item topic rowOne">විද්‍යා සංගමය</div>
+    <div class="grid-item rowOne">කුමාර මහා විද්‍යාලය - තෙප්පනාව</div>
+    <div class="grid-item rowTwo">9 ශ්‍රේණිය</div>
+    <div class="grid-item rowTwo">
+      <button id="button" onclick="hide()" >ආරම්භ කිරීමට මෙහි Click කරන්න</button>
+      <span id="time">10:00</span>
+    </div>  
+    <div class="grid-item question">01. ඉබෝලා වෛරසය හඳුනා ගත් මහද්වීපය කුමක්ද?</div>
+    <div class="grid-item question">02. ඇසෙහි තාරා මණ්ඩලය මධ්‍යයේ පිහිටි වෘත්තාකාර සිදුර හඳුන්වන නම කුමක්ද?</div>  
+    <div class="grid-item question">03. බලය මනින උපකරණය කුමක්ද?</div>
+    <div class="grid-item question">04. පීඩනය මනින ඒකකය කුමක්ද?</div>
+    <div class="grid-item question">05. තුවාලයක් සිදු වූ විට රුධිරය කැටි ගැසීමට දායක වන සෛල වර්ගය කුමක්ද?</div> 
+    <div class="grid-item question">06. මැලේරියාව ඇතිකරන ඇති කරන රෝග වාහකයා කවුද?</div> 
+    <div class="grid-item question">07. ත්‍රිකුණාමලයේ තඹලගමුව බොක්ක ආශ්‍රිතව වාසය කරන ජීවමාන පොසිලය කවුද?</div> 
+    <div class="grid-item question">08. ශාක මුලේ හා කදේ අග්‍රස්ථයේ නිපදවෙන වර්ධක ද්‍රව්‍ය නම් කරන්න?</div> 
+    <div class="grid-item question">09. 2004 වර්ෂයේ ශ්‍රී ලංකාවට බලපෑ සුනාමිය ට හේතු වූ භූ කම්පනය භූකම්පනය සිදු වූයේ කුමන දූපත අසළ ද?</div> 
+    <div class="grid-item question">10. වඩාත් ම හානිකර අකුණු වර්ගය කුමක්ද?</div> 
+    <div class="grid-item question">11. "බිලියනයකින් පංගුවක්" යන ඉතා කුඩා ප්‍රමාණයට ලබා දෙන නාමය කුමක් ද?</div> 
+    <div class="grid-item question">12. ඉනිමග, පඩිපෙළ අයත් වන සරල යන්ත්‍ර වර්ගය කුමක්ද?</div> 
+    <div class="grid-item question">13. වවුලාට රාත්‍රී කාලයේ පියාසර කිරීමට උපකාරී වන තරංග වර්ගය කුමක්ද?</div> 
+    <div class="grid-item question">14. තල දර්පනය භාවිතයෙන් සාදන විවිධ රටා නිර්මාණයට වැදගත් වන මෝස්තර නිර්මාණ ශිල්පීන් ද භාවිතයට ගන්නා උපකරණ උපකරණය  කුමක් ද?</div> 
+    <div class="grid-item question">15. ජලය ඝනත්වය කීය ද?</div> 
+    <div class="grid-item question">16. 'ප්ලම්බම්' යන ලතින් නාමයෙන් හඳුන්වන මූල ද්‍රව්‍ය සංකේතය ලියන්න</div> 
+    <div class="grid-item question">17. ලා කොළ පාට වායු ලෙස පවතින මූලද්‍රව්‍ය කුමක් ද?</div> 
+    <div class="grid-item question">18. ශබ්ද තරංගය ට අනුරූපව කම්පනය වී ශ්‍රවණ සංවේදනය ලබා ගන්නා කනෙහි කොටස කුමක් ද?</div> 
+    <div class="grid-item question">19. ජෛව රසායනික අවිය ලෙස ලොව භාවිත කරන ලද බැක්ටීරියාව කුමක් ද?</div> 
+    <div class="grid-item question">20. A විටමින් අඩංගු කර පෝෂ්‍ය ගුණය ඉහළ නැංවූ සහල් හඳුන්වන නම කුමක් ද?</div> 
+    <div class="grid-item question">21. ලොව උසම කන්ද කුමක්ද?</div> 
+    <div class="grid-item question">22. සීගිරිය අයත් වන දිස්ත්‍රික්කය කුමක්ද?</div> 
+    <div class="grid-item question">23. ක්ෂීරපායියෙක් වුවද බිත්තර දමන කූඹි ආහාරයට ගන්නා සත්වයා කවුද?</div> 
+    <div class="grid-item question">24. ලේවල රතු පාටට හේතුවන වර්ණකය හඳුන්වන නම කුමක්ද?</div> 
+    <div class="grid-item question">25. පුංචි එංගලන්තය ලෙස හඳුන්වන ශ්‍රී ලංකාවේ පිහිටි ස්ථානය කුමක්ද?</div> 
+</div>
+
+</body>
+<script>
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+
+function hide() {
+    var cubes = document.getElementsByClassName('question');
+    for (var i = 0; i < cubes.length; i++) {
+        cubes[i].style.display = '';
+    }
+    for (var i = 0; i < 6;) {
+        var y = Math.floor(Math.random() * 25);
+        if (cubes[y].style.display == '') {
+            cubes[y].style.display = 'block';
+            i++;
+        }
+    }
+    document.getElementById("time").style.display = "block";
+    document.getElementById("button").style.display = "none";
+
+    var fiveMinutes = 60 * 10,
+      display = document.querySelector('#time');
+    startTimer(fiveMinutes, display);
+}
+
+</script>
+</html>
