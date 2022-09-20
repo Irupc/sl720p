@@ -219,7 +219,7 @@
     <button class="btn btn-danger btn-block" onclick="copyMe()" id="copyBtn">Copy Now</button><br>
     <button class="btn btn-danger btn-block" id="refreshbtn" onClick="window.location.reload();">Find Another Post</button>
     <br><br>
-    <h3>Page written by <a class="myName" href="https://t.me/irupc_net">@iruPC_net</a></h3>
+    <h3>Page Written by <a class="myName" href="https://t.me/irupc_net">@iruPC_net</a></h3>
 </center>
 </body>
 <script>
@@ -228,7 +228,7 @@
         try{
             source = document.getElementById("Input").value;
             subRedditName = source.split("reddit.com/r/")[1].split(`
-    `)[0];
+`)[0];
             postTitle = source.split("matching post with title ")[1].split(" posted by user")[0];
 
             outPut = urlOfReddit.replace("subReddit", subRedditName).replace("searchWord", postTitle)
